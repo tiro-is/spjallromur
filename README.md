@@ -2,21 +2,19 @@ Spjallromur - Icelandic Conversational Speech
 
 ## About the Spjallrómur corpus
 
-Spjallromur is an open source conversational speech corpus for speech technology development. The corpus is 21 hrs and 20 mins long, with 54 total conversations, 102 speakers. The data was collected for one year (September 2020 - September 2021) by Reykjavík University. There are two parts, the first part has full conversations, while the second part has half conversations.
+Spjallromur is an open-source conversational speech corpus for speech technology development. The corpus is 21 hours and 20 minutes long, with 54 total conversations, and 102 speakers. The data was collected for one year (September 2020 - September 2021) by Reykjavík University.
 
-The dataset was primarily created for automatic speech recognition but due to the nature of the dataset, it can also be used for other speech technology fields such as: speaker identification, speaker diarization, and conversational language modeling.
+This is a revised version of Spjallromur. The original version did not include accurate timestamps, it can be found on [Clarin](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/187). For this revision timestamps were added by automatically aligning the audio files to the transcript. There is now also a script that transforms the audio files and transcripts into conventional short-segment ASR training data with defined test, development, and training sets.
 
-This is a revised version of Spjallromur published in Oktober of 2023. The orginal version did not include acurate timestamps, it camn be found on [Clarin](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/187). For this revision timestamps where added by automatically aligning the audiofiles to the transcript. There is now also a script that transforms the audio files and transcripts into conentional short segment ASR training data with a defined test, development and training sets.
+Spjallrómur was collected using a custom made online chatting platform called Spjall, which is Icelandic for chat. Each speaker used their own microphones (some picked up background noise like the neighboring speakers or other speakers) and devices. The audio from each microphone was saved to a separate audio file, WAVE. There are two speakers per conversation. The speaker set contains both native and non-native Icelandic speakers. All speakers are adults. Due to some network lag there is sometimes a small difference in the length of the two audio files in a conversation. As there were a limited number of participants, some speakers may be in more than one conversation. The dataset was primarily created for automatic speech recognition but due to the nature of the dataset, it can also be used for other speech technology fields such as speaker identification, speaker diarization, and conversational language modeling.
 
-Spjallrómur was collected using a custom made online chatting platform called Spjall, which is Icelandic for chat. Each speaker used their own microphones (some picked up background noise like the neighboring speakers or other speakers) and devices. The audio from each microphone was saved to a separate audio file,.WAV. There are two speakers per conversation. The speaker set contains both native and non-native Icelandic speakers. All speakers are adults. Due to some network lag there is sometimes a small difference in length of the two audio files in a conversation. As there were a limited number of participants, some speakers may be in more than one conversation.
+The transcript where created by first transcribing the audio and then manually reviewed and fixed. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLLEP>` in the transcript. Partial words are marked with [HIK: ..].
 
-The transcript where created by first transcribing the audio and the manually reviewed and fixed. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLLEP>` in the transcript. Partial words are marked with [HIK: ..].
+- The full conversations contain 18 hrs 20 mins of 46 full conversations, 92 speakers.
+- The half conversations contain 2 hrs 42 mins with 7 conversations.
+- Unaligned data has 1 hr and 16 mins with 3 recordings.
 
-- The full conversations contain: 18 hrs 20 mins of 46 full conversations, 92 speakers.
-- The half conversations contain: 2 hrs 42 mins with 7 conversations.
-- Unaligned data: has 1 hr and 16 mins with 3 recordings.
-
-There where three recordings that we where unable to align. The unaligned data is contains one conversation between two speakers and a half conversations, the other half was moved from full conversations in the orginal to half conversations in this revision. The orginal transcripts are still included in the folder as the text data can be used.
+There were three recordings that we were unable to align. The unaligned data is contains one conversation between two speakers and a half conversations, the other half was moved from full conversations in the original to half conversations in this revision. The original transcripts are still included in the folder as the text data can be used.
 
 We manually evaluated the alignment by reviewing ~300 segments. Details on the alignment our found in the file `evaluation_of_alignment.md`.
 
@@ -44,7 +42,7 @@ The file names are structured like `<spk-id>_<unique-key>_<age>_<gender>.wav`. E
 
 The reason that the data was aligned in this revision is so that it can be used for training and evaluating ASR systems on conversational data. The script `run_asr_recipe.py` converts the corpus into short segmented audio clips as well as splitting them into `train`, `dev` and `test` sets.
 
-The set's are as follows:
+The sets are as follows:
 
 train.info
 
@@ -68,9 +66,9 @@ There are is no speaker overlap between the sets. The recipe also has scripts fo
 
 # Diarization
 
-For use in diarization we provide a script that converts the corpus to a diarization friendly format. The script `run_diarization_recipe.py` combines the full transcript of the converstations into a combined file both a `JSON` file and `RTTM` file is created.
+For use in diarization we provide a script that converts the corpus to a diarization-friendly format. The script `run_diarization_recipe.py` combines the full transcript of the converstations into a combined file both a `JSON` file and `RTTM` file is created.
 
-The recipe also provides steps to replicate an diraization experiment using the [pyannote](https://github.com/pyannote/pyannote-audio). The results of the experiment are in `results/diarize/diarization_results.md`
+The recipe also provides steps to replicate a diraization experiment using the [pyannote](https://github.com/pyannote/pyannote-audio). The results of the experiment are in `results/diarize/diarization_results.md`
 
 ## Authors
 
