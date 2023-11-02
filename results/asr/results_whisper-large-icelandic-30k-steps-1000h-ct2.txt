@@ -1,0 +1,5 @@
+wer (test): 41.748% [ 286 hyp / 286 results/asr/whisper-large-icelandic-30k-steps-1000h-ct2/test]
+cer (test): 28.61% [ 286 hyp / 286 results/asr/whisper-large-icelandic-30k-steps-1000h-ct2/test]
+
+wer (dev): 39.051% [ 330 hyp / 330 results/asr/whisper-large-icelandic-30k-steps-1000h-ct2/dev]
+cer (dev): 25.801% [ 330 hyp / 330 results/asr/whisper-large-icelandic-30k-steps-1000h-ct2/dev]
