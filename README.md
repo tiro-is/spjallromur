@@ -62,7 +62,7 @@ dev
 - Duration ~1 hours
 - 4 female and 4 male
 
-There are is no speaker overlap between the sets. The recipe also has scripts for running an ASR experiment. The information [?] of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
+There are is no speaker overlap between the sets. The recipe also has scripts for running an ASR experiment. The results of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
 
 # Diarization
 
