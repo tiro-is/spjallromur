@@ -2,13 +2,13 @@ Spjallromur - Icelandic Conversational Speech
 
 ## About the Spjallrómur corpus
 
-Spjallromur is an open-source conversational speech corpus for speech technology development. The corpus is 21 hours and 20 minutes long, with 54 total conversations, and 102 speakers. The data was collected for one year (September 2020 - September 2021) by Reykjavík University.
+Spjallromur is an open-source conversational speech corpus for speech technology development. The corpus is 21 hours and 20 minutes long, with 54 total conversations, and 102 speakers. The data was collected over the period of one year (September 2020 - September 2021) by Reykjavík University.
 
 This is a revised version of Spjallromur. The original version did not include accurate timestamps, it can be found on [Clarin](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/187). For this revision timestamps were added by automatically aligning the audio files to the transcript. There is now also a script that transforms the audio files and transcripts into conventional short-segment ASR training data with defined test, development, and training sets.
 
-Spjallrómur was collected using a custom made online chatting platform called Spjall, which is Icelandic for chat. Each speaker used their own microphones (some picked up background noise like the neighboring speakers or other speakers) and devices. The audio from each microphone was saved to a separate audio file, WAVE. There are two speakers per conversation. The speaker set contains both native and non-native Icelandic speakers. All speakers are adults. Due to some network lag there is sometimes a small difference in the length of the two audio files in a conversation. As there were a limited number of participants, some speakers may be in more than one conversation. The dataset was primarily created for automatic speech recognition but due to the nature of the dataset, it can also be used for other speech technology fields such as speaker identification, speaker diarization, and conversational language modeling.
+Spjallrómur was collected using a custom made online chatting platform called Spjall, which is Icelandic for chat. Each speaker used their own microphones (some picked up background noise like the neighboring speakers or other speakers) and devices. The audio from each microphone (speaker) was saved to a separate audio file, .WAVE. There are two speakers per conversation. The speaker set contains both native and non-native Icelandic speakers. All speakers are adults. Due to some network lag there is sometimes a small difference in the length of the two audio files within a conversation. As there were a limited number of participants, some speakers may be in more than one conversation. The dataset was primarily created for automatic speech recognition but due to the nature of the dataset, it can also be used for other speech technology fields such as speaker identification, speaker diarization, and conversational language modeling.
 
-The transcript where created by first transcribing the audio and then manually reviewed and fixed. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLLEP>` in the transcript. Partial words are marked with [HIK: ..].
+The transcripts where created by first transcribing the audio and then manually reviewed and fixed. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLLEP>` in the transcript. Partial words are marked with [HIK: ..].
 
 - The full conversations contain 18 hrs 20 mins of 46 full conversations, 92 speakers.
 - The half conversations contain 2 hrs 42 mins with 7 conversations.
@@ -16,7 +16,7 @@ The transcript where created by first transcribing the audio and then manually r
 
 There were three recordings that we were unable to align. The unaligned data is contains one conversation between two speakers and a half conversations, the other half was moved from full conversations in the original to half conversations in this revision. The original transcripts are still included in the folder as the text data can be used.
 
-We manually evaluated the alignment by reviewing ~300 segments. Details on the alignment our found in the file `evaluation_of_alignment.md`.
+We manually evaluated the alignment by reviewing ~300 segments. Details on the alignment are found in the file `evaluation_of_alignment.md`.
 
 ## The structure of the corpus
 
@@ -62,7 +62,7 @@ dev
 - Duration ~1 hours
 - 4 female and 4 male
 
-There are is no speaker overlap between the sets. The recipe also has scripts for running an ASR experiment. The of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
+There are is no speaker overlap between the sets. The recipe also has scripts for running an ASR experiment. The information [?] of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
 
 # Diarization
 
