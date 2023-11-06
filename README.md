@@ -74,7 +74,8 @@ The recipe also provides steps to replicate a diraization experiment using the [
 
 Reykjavík University
 
-- Judy Y Fong - judy@judyyfong.xyz
+- Carlos Daniel Hernández Mena
+- Judy Y Fong
 - Staffan Hedström
 - Ólafur Helgi Jónsson
 - Lára Margrét H. Hólmfriðardóttir
