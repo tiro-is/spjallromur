@@ -62,7 +62,7 @@ dev
 - Duration ~1 hours
 - 4 female and 4 male
 
-There are is no speaker overlap between the sets. The recipe also has scripts for running an ASR experiment. The results of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
+There are is no speaker overlap between the sets, meaning speakers in the test set are not in the training set same applies to the dev set. The recipe also has scripts for running an ASR experiment. The results of this experiment are in `results/asr/whisper-large-icelandic-30k-steps-1000h-ct2.txt`
 
 # Diarization
 
@@ -88,7 +88,7 @@ Reykjavík University
 Tiro ehf.
 
 - David Erik Mollberg
-- Luke James O'brien
+- Luke James O'Brien
 
 ## Acknowledgements
 
