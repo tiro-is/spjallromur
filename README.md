@@ -100,17 +100,18 @@ This project was funded in part by the the Icelandic Directorate of Labour's stu
 
 ## Citations
 
-@misc{fong-spjallromur,
-title = {Spjallromur - Icelandic Conversational Speech},
-author = {Fong, Judy Y and Hedstr{\"o}m, Staffan and J{\'o}nsson, {\'O}lafur
-Helgi and H{\'o}lmfri{\dh}ard{\'o}ttir, L{\'a}ra Margr{\'e}t H. and
-{\TH}orsteinsd{\'o}ttir, Sunneva and Eir{\'{\i}}ksd{\'o}ttir, M{\'a}lfri{\dh}ur
-Anna and Mollberg, David Erik and Magn{\'u}sd{\'o}ttir, Eyd{\'{\i}}s Huld and
-{\TH}{\'o}rhallsd{\'o}ttir, Ragnhei{\dh}ur and Gudnason, Jon},
-url = {},
-note = {{CLARIN}-{IS}},
-copyright = {Creative Commons - Attribution 4.0 International ({CC} {BY} 4.0)},
-year = {2022} }
+    @misc{fong-spjallromur,
+    title={Spjallromur - Icelandic Conversational Speech},
+    author={Fong, Judy Y and Hedstr{\"o}m, Staffan and J{\'o}nsson, {\'O}lafur
+    Helgi and H{\'o}lmfri{\dh}ard{\'o}ttir, L{\'a}ra Margr{\'e}t H. and
+    {\TH}orsteinsd{\'o}ttir, Sunneva and Eir{\'{\i}}ksd{\'o}ttir, M{\'a}lfri{\dh}ur
+    Anna and Mollberg, David Erik and Magn{\'u}sd{\'o}ttir, Eyd{\'{\i}}s Huld and
+    {\TH}{\'o}rhallsd{\'o}ttir, Ragnhei{\dh}ur and Gudnason, Jon},
+    url={},
+    note={{CLARIN}-{IS}},
+    copyright={Creative Commons - Attribution 4.0 International ({CC} {BY} 4.0)},
+    year={2022}
+    }
 
 ## License
 
