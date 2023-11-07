@@ -21,7 +21,7 @@ convert()
 # authentication token.
 # Using a GPU (device='cuda') the decoding only takes a few minutes.
 
-from src.diraze import diarize
+from src.diarize import diarize
 
 token = ""
 # device='cuda'
