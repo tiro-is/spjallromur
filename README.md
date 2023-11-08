@@ -44,7 +44,7 @@ The reason that the data was aligned in this revision is so that it can be used 
 
 The sets are as follows:
 
-train.info
+train
 
 - Number of segments 5701
 - Duration 22.56 hours
