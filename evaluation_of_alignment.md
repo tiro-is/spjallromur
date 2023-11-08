@@ -126,7 +126,7 @@ Five samples were taken from each speaker and manually evaluated. The samples we
 
 ## Conclusion
 
-The manual evaluation gives us confidence in the alignment. The WER is quite high but the model is not trained on this data and the data is quite different from the data the model was trained on. This conversational data differs alot from traditonal ASR data, as the speakers are in some cases not speaking clearly, the audio quality is variety, the speakers are not reading from a script and the sentence structure is very unorthodox. As can be seen in these samples.
+The manual evaluation gives us confidence in the alignment. The WER is quite high but the model is not trained on this data and the data is quite different from the data the model was trained on. This conversational data differs a lot from traditional ASR data, as the speakers are in some cases not speaking clearly, the audio quality is varied, the speakers are not reading from a script and the sentence structure is very unorthodox. As can be seen in these samples.
 
 ```
 a_2c1b4416_40-49_f_0_18.86
