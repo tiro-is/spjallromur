@@ -116,7 +116,7 @@ The average word error rate of the entire dataset is 38.63% which is quite high.
 
 ## Manual evaluation by listening
 
-For 60 of the 99 speakers, ~5 segments from that speaker were randomly selected, and their alignments were manually evaluated. Due to time constraints, not all 99 speakers were tested. In total, we evaluated 312 samples. The evaluation was very simple. The evaluator listened to each segment and marked it as a good alignment, the beginning of the segment was missing or the end of the segment was missing. The results show that the average accuracy is 94.6%. Most of the alignment issues were minor.
+For 60 of the 99 speakers, ~5 segments from that speaker were randomly selected, and their alignments were manually evaluated. Due to time constraints, not all 99 speakers were tested. In total, we evaluated 312 samples. The evaluation was very simple. The evaluator listened to each segment and marked the alignment as one of: "Good" (all words in audio match all words in transcript), "Missing end" (the end of the segment was missing), or "Missing beginning" (The beginning of the segment was missing). The results show that the average accuracy is 94.6%. Most of the alignment issues were minor.
 
 | Evaluation        | Count |
 | ----------------- | ----- |

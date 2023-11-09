@@ -44,7 +44,7 @@ The reason that the data was re-aligned in this revision is for training and eva
 
 The sets are as follows:
 
-train.info
+train
 
 - Number of segments 5701
 - Duration 22.56 hours
