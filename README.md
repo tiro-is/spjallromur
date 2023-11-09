@@ -8,7 +8,7 @@ This is a revised version of Spjallromur. The original version did not include a
 
 Spjallrómur was collected using a custom-made online chatting platform called Spjall, which is Icelandic for "chat". Each speaker used their own microphones (some picked up background noise from neighboring speakers) and devices. The audio from each microphone (speaker) was saved to a separate audio file, .WAVE. There are two speakers per conversation. The speaker set contains both native and non-native Icelandic speakers. All speakers are adults. Due to some network lag, there is sometimes a small difference in the length of the two audio files within a conversation. As there was a limited number of participants, some speakers may be in more than one conversation. The dataset was primarily created for automatic speech recognition but due to the nature of the dataset, it can also be used for other speech technology fields such as speaker identification, speaker diarization, and conversational language modeling.
 
-The transcripts were created by manual correction of ASR output. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLLEP>` in the transcript. Partial words are marked with [HIK: ..].
+The transcripts were created by manual correction of ASR output. Personally identifiable information has been redacted in the audio with a 400H beep and replaced with `<BLEEP>` in the transcript. Partial words are marked with [HIK: ..].
 
 - The full conversations contain 18 hrs 20 mins of 46 full conversations, 92 speakers.
 - The half conversations contain 2 hrs 42 mins with 7 conversations.
