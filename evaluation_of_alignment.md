@@ -1,16 +1,16 @@
-# Realignment of Spjallromur
+﻿# Realignment of Spjallromur
 
-The dataset was realgined using scripts in Kaldi and an acoustic model from Tiro ehf.
+The dataset was realigned using scripts in Kaldi and an acoustic model from Tiro ehf.
 
 # Evaluation of alignments
 
-The data was evaluated in two ways. Firstly by decoding using an ASR system and then also by manually listning to a few hundred segments.
+The data was evaluated in two ways. Firstly by decoding using an ASR system and then also by manually listening to a few hundred segments.
 
 ## Evaluation by decoding
 
 We used a finetuned Whisper model (https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-30k-steps-1000h).
 
-The average word error rate of the entire dataset is 38.63% which is quite high and results for each speaker are in the table below. This model performs well on other test sets and this is therefore a quite a high WER. There are some noticeble outliers in data. For example the speaker `b_9a67bc98_30-39_f` has Icelandic as their second language and therefore has a thick accent.
+The average word error rate of the entire dataset is 38.63% which is quite high. Results for each speaker are in the table below. This model performs well on other test sets and this is therefore quite a high WER. There are some noticeable outliers in the data. For example, the speaker `b_9a67bc98_30-39_f` speaks Icelandic as their second language and has a non-native accent.
 
 | Spk id             | WER     |
 | ------------------ | ------- |
@@ -114,9 +114,9 @@ The average word error rate of the entire dataset is 38.63% which is quite high 
 | b_bbc3f248_20-29_m | 17.854  |
 | a_9a67bc98_80-89_m | 15.834  |
 
-## Evaluation by manual listening
+## Manual evaluation by listening
 
-Five samples were taken from each speaker and manually evaluated. The samples were chosen randomly from each speaker. But due time constraints not all speakers were tested. In total there we evaluated 296 samples from 60 speakers ot ouf a 99. The evaluation was very simple, either there was a good alignment, the beginning of the segment was missing or the end of the segment was missing. The results are quite good and the average accuracy is 94.6% most of the alignment issues were minor.
+For 60 of the 99 speakers, ~5 segments from that speaker were randomly selected, and their alignments were manually evaluated. Due to time constraints, not all 99 speakers were tested. In total, we evaluated 312 samples. The evaluation was very simple. The evaluator listened to each segment and marked the alignment as one of: "Good" (all words in audio match all words in transcript), "Missing end" (the end of the segment was missing), or "Missing beginning" (The beginning of the segment was missing). The results show that the average accuracy is 94.6%. Most of the alignment issues were minor.
 
 | Evaluation        | Count |
 | ----------------- | ----- |
@@ -126,7 +126,7 @@ Five samples were taken from each speaker and manually evaluated. The samples we
 
 ## Conclusion
 
-The manual evaluation gives us confidence in the alignment. The WER is quite high but the model is not trained on this data and the data is quite different from the data the model was trained on. This conversational data differs a lot from traditional ASR data, as the speakers are in some cases not speaking clearly, the audio quality is varied, the speakers are not reading from a script and the sentence structure is very unorthodox. As can be seen in these samples.
+The manual evaluation gives us confidence in the alignment, so it seems like something else is causing the high WER of the Whisper model. The most obvious explanation for the WER is that the Whisper model is not trained on this kind of data. Conversational data differs a lot from traditional scripted ASR data, as the speakers are in some cases not speaking clearly, the audio quality varies, the word choice is spontaneous and the utterances are often fragmented thoughts rather than long cohesive sentences. Some examples of this can be seen in the following samples.
 
 ```
 a_2c1b4416_40-49_f_0_18.86

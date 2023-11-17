@@ -32,7 +32,7 @@ from src.check_dependencies import check_dependencies
 print(
     "(2 of 4) Checking dependencies and downloading the ASR model from Hugging Face ..."
 )
-# check_dependencies()
+check_dependencies()
 whisper_model = download_asr_model()
 
 
