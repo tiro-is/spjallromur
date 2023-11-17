@@ -24,8 +24,9 @@ convert()
 from src.diarize import diarize
 
 token = ""
-# device='cuda'
+# device = "cuda"
 device = "cpu"
+
 diarize(authentication_token=token, device=device)
 
 # ########################################################################
@@ -36,11 +37,17 @@ diarize(authentication_token=token, device=device)
 # install location
 import subprocess
 
+
 path2dscore = None
-subprocess.call(
-    "python",
-    f"{path2dscore}/score.py",
-    "--collar 0",
-    "-R results/diarize/ref_dir.scp",
-    "-S results/diarize/hyp_dir.scp",
-)
+if path2dscore:
+    subprocess.call(
+        "python",
+        f"{path2dscore}/score.py",
+        "--collar 1",
+        "-R results/diarize/ref_dir.scp",
+        "-S results/diarize/hyp_dir.scp",
+    )
+else:
+    print(
+        "Please install 'https://github.com/nryant/dscore' and proved the path to the tool."
+    )
