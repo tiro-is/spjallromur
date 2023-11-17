@@ -1,0 +1,1 @@
+það þarf ekki að vera að það sé það væri á auka net traffic ég held að þeir geta notað einhvern annan protocol heldur en ping protocol til að senda netpakka skilurðu

@@ -1,0 +1,1 @@
+Kannski er alveg algjörlega aðskildir protocol-ar. Væntanlegt er T C P notað fyrir tölvuleiki, [HIK:netten] Ætli það sé [HIK:blabla] frekar?

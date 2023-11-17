@@ -1,0 +1,1 @@
+Það er búið að búa til gervigreindarkerfi sem að, sem að sem sagt greinir krabbamein. Mismunandi tegundir krabbameina, byggt á rannsóknarniðurstöðum, blóðsýnum og einhverju fleiru. Ja, ekki myndum.

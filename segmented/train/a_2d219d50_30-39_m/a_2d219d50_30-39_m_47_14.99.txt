@@ -1,0 +1,1 @@
+Þarf hann ekki að svara [HIK:blabla] fyrir [HIK:blabla] . Þarf ekki, server-inn þarf væntanlega að vita að þú sért enn þá tengdur þá ping-ar hann þig. Gæti verið.

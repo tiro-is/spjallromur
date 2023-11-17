@@ -1,0 +1,1 @@
+Já. Þetta er class, þetta er sub-class af fighter. Actually.

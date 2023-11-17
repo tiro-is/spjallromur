@@ -1,0 +1,5476 @@
+{
+    "metadata": {
+        "age": "80-89",
+        "gender": "male",
+        "audio_duration": 783.017,
+        "speaker": "a"
+    },
+    "words": [
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 3.57,
+            "end": 3.9
+        },
+        {
+            "word": "Hvað",
+            "norm_word": "hvað",
+            "start": 6.72,
+            "end": 6.96
+        },
+        {
+            "word": "geri",
+            "norm_word": "geri",
+            "start": 6.96,
+            "end": 7.32
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 7.32,
+            "end": 7.47
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 7.5,
+            "end": 7.77
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 7.77,
+            "end": 7.86
+        },
+        {
+            "word": "dag?",
+            "norm_word": "dag",
+            "start": 7.86,
+            "end": 8.34
+        },
+        {
+            "word": "Ekkert,",
+            "norm_word": "ekkert",
+            "start": 10.17,
+            "end": 10.95
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 10.95,
+            "end": 11.13
+        },
+        {
+            "word": "bara,",
+            "norm_word": "bara",
+            "start": 11.13,
+            "end": 11.28
+        },
+        {
+            "word": "er",
+            "norm_word": "er",
+            "start": 12.03,
+            "end": 12.24
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 12.24,
+            "end": 12.45
+        },
+        {
+            "word": "hérna",
+            "norm_word": "hérna",
+            "start": 12.48,
+            "end": 12.96
+        },
+        {
+            "word": "í,",
+            "norm_word": "í",
+            "start": 12.96,
+            "end": 12.99
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 16.17,
+            "end": 16.29
+        },
+        {
+            "word": "vist.",
+            "norm_word": "vist",
+            "start": 16.29,
+            "end": 16.65
+        },
+        {
+            "word": "Já",
+            "norm_word": "já",
+            "start": 17.46,
+            "end": 17.76
+        },
+        {
+            "word": "já.",
+            "norm_word": "já",
+            "start": 17.76,
+            "end": 18.03
+        },
+        {
+            "word": "Já",
+            "norm_word": "já",
+            "start": 31.62,
+            "end": 32.1
+        },
+        {
+            "word": "já,",
+            "norm_word": "já",
+            "start": 32.1,
+            "end": 32.28
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 32.28,
+            "end": 32.55
+        },
+        {
+            "word": "er",
+            "norm_word": "er",
+            "start": 32.55,
+            "end": 32.61
+        },
+        {
+            "word": "ekkert",
+            "norm_word": "ekkert",
+            "start": 32.61,
+            "end": 32.94
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 32.94,
+            "end": 33.06
+        },
+        {
+            "word": "vinna.",
+            "norm_word": "vinna",
+            "start": 33.06,
+            "end": 33.54
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 34.86,
+            "end": 35.16
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 35.16,
+            "end": 35.37
+        },
+        {
+            "word": "fræðslustjóri",
+            "norm_word": "fræðslustjóri",
+            "start": 35.37,
+            "end": 36.45
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 36.45,
+            "end": 36.51
+        },
+        {
+            "word": "Reykjavík.",
+            "norm_word": "reykjavík",
+            "start": 36.51,
+            "end": 37.47
+        },
+        {
+            "word": "Alla",
+            "norm_word": "alla",
+            "start": 39.69,
+            "end": 40.17
+        },
+        {
+            "word": "ævina.",
+            "norm_word": "ævina",
+            "start": 40.17,
+            "end": 40.86
+        },
+        {
+            "word": "Restina",
+            "norm_word": "restina",
+            "start": 42.15,
+            "end": 42.84
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 42.84,
+            "end": 42.96
+        },
+        {
+            "word": "ævinni.",
+            "norm_word": "ævinni",
+            "start": 42.96,
+            "end": 43.65
+        },
+        {
+            "word": "Já,",
+            "norm_word": "já",
+            "start": 49.17,
+            "end": 49.41
+        },
+        {
+            "word": "það.",
+            "norm_word": "það",
+            "start": 49.41,
+            "end": 49.74
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 49.74,
+            "end": 49.95
+        },
+        {
+            "word": "man",
+            "norm_word": "man",
+            "start": 49.95,
+            "end": 50.19
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 50.19,
+            "end": 50.4
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 50.4,
+            "end": 50.52
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 50.52,
+            "end": 50.73
+        },
+        {
+            "word": "nákvæmlega.",
+            "norm_word": "nákvæmlega",
+            "start": 50.73,
+            "end": 51.75
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 52.38,
+            "end": 52.53
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 52.53,
+            "end": 52.74
+        },
+        {
+            "word": "vann",
+            "norm_word": "vann",
+            "start": 52.74,
+            "end": 53.04
+        },
+        {
+            "word": "hjá",
+            "norm_word": "hjá",
+            "start": 53.04,
+            "end": 53.34
+        },
+        {
+            "word": "fræðslustjóranum",
+            "norm_word": "fræðslustjóranum",
+            "start": 53.34,
+            "end": 54.69
+        },
+        {
+            "word": "fyrst.",
+            "norm_word": "fyrst",
+            "start": 54.69,
+            "end": 55.11
+        },
+        {
+            "word": "Í",
+            "norm_word": "í",
+            "start": 57.69,
+            "end": 57.93
+        },
+        {
+            "word": "Reykjavík",
+            "norm_word": "reykjavík",
+            "start": 57.93,
+            "end": 58.8
+        },
+        {
+            "word": "vann",
+            "norm_word": "vann",
+            "start": 58.8,
+            "end": 59.07
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 59.07,
+            "end": 59.25
+        },
+        {
+            "word": "hjá",
+            "norm_word": "hjá",
+            "start": 59.28,
+            "end": 59.52
+        },
+        {
+            "word": "fræðslustjóranum.",
+            "norm_word": "fræðslustjóranum",
+            "start": 59.52,
+            "end": 61.44
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 62.55,
+            "end": 62.85
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 62.85,
+            "end": 63.15
+        },
+        {
+            "word": "tók",
+            "norm_word": "tók",
+            "start": 63.15,
+            "end": 63.57
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 63.57,
+            "end": 63.75
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 63.75,
+            "end": 63.99
+        },
+        {
+            "word": "[HIK:st]",
+            "norm_word": "",
+            "start": 63.99,
+            "end": 64.11
+        },
+        {
+            "word": "þessu",
+            "norm_word": "þessu",
+            "start": 64.5,
+            "end": 64.98
+        },
+        {
+            "word": "starfi,",
+            "norm_word": "starfi",
+            "start": 64.98,
+            "end": 65.76
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 66.3,
+            "end": 66.48
+        },
+        {
+            "word": "varð",
+            "norm_word": "varð",
+            "start": 66.48,
+            "end": 67.02
+        },
+        {
+            "word": "fræðslustjóri",
+            "norm_word": "fræðslustjóri",
+            "start": 67.74,
+            "end": 69.3
+        },
+        {
+            "word": "Reykjavíkurborgar.",
+            "norm_word": "reykjavíkurborgar",
+            "start": 69.3,
+            "end": 70.98
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 73.77,
+            "end": 74.04
+        },
+        {
+            "word": "sá",
+            "norm_word": "sá",
+            "start": 74.04,
+            "end": 74.4
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 74.4,
+            "end": 74.52
+        },
+        {
+            "word": "öll",
+            "norm_word": "öll",
+            "start": 74.52,
+            "end": 74.79
+        },
+        {
+            "word": "fjármál",
+            "norm_word": "fjármál",
+            "start": 74.79,
+            "end": 75.72
+        },
+        {
+            "word": "borgarinnar.",
+            "norm_word": "borgarinnar",
+            "start": 75.84,
+            "end": 76.95
+        },
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 79.95,
+            "end": 80.31
+        },
+        {
+            "word": "Nei,",
+            "norm_word": "nei",
+            "start": 85.08,
+            "end": 85.53
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 85.53,
+            "end": 85.77
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 85.77,
+            "end": 85.86
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 85.86,
+            "end": 86.28
+        },
+        {
+            "word": "var.",
+            "norm_word": "var",
+            "start": 86.31,
+            "end": 86.64
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 87.12,
+            "end": 87.33
+        },
+        {
+            "word": "sá",
+            "norm_word": "sá",
+            "start": 87.33,
+            "end": 87.63
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 87.63,
+            "end": 87.78
+        },
+        {
+            "word": "öll",
+            "norm_word": "öll",
+            "start": 87.78,
+            "end": 88.02
+        },
+        {
+            "word": "fjármál",
+            "norm_word": "fjármál",
+            "start": 88.02,
+            "end": 88.95
+        },
+        {
+            "word": "borgarinnar.",
+            "norm_word": "borgarinnar",
+            "start": 89.43,
+            "end": 90.87
+        },
+        {
+            "word": "Allar",
+            "norm_word": "allar",
+            "start": 91.83,
+            "end": 92.25
+        },
+        {
+            "word": "stofnanir.",
+            "norm_word": "stofnanir",
+            "start": 92.25,
+            "end": 93.12
+        },
+        {
+            "word": "Skóla",
+            "norm_word": "skóla",
+            "start": 95.37,
+            "end": 96.06
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 96.06,
+            "end": 96.45
+        },
+        {
+            "word": "leikskóla,",
+            "norm_word": "leikskóla",
+            "start": 96.72,
+            "end": 97.65
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 97.65,
+            "end": 97.83
+        },
+        {
+            "word": "allt.",
+            "norm_word": "allt",
+            "start": 97.83,
+            "end": 98.25
+        },
+        {
+            "word": "Þannig",
+            "norm_word": "þannig",
+            "start": 100.08,
+            "end": 100.53
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 100.53,
+            "end": 100.77
+        },
+        {
+            "word": "það.",
+            "norm_word": "það",
+            "start": 100.77,
+            "end": 101.28
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 102.18,
+            "end": 102.3
+        },
+        {
+            "word": "þannig,",
+            "norm_word": "þannig",
+            "start": 102.3,
+            "end": 102.87
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 103.44,
+            "end": 103.71
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 103.71,
+            "end": 103.83
+        },
+        {
+            "word": "síðasta",
+            "norm_word": "síðasta",
+            "start": 103.83,
+            "end": 104.4
+        },
+        {
+            "word": "starf",
+            "norm_word": "starf",
+            "start": 104.4,
+            "end": 104.82
+        },
+        {
+            "word": "mitt",
+            "norm_word": "mitt",
+            "start": 104.85,
+            "end": 105.33
+        },
+        {
+            "word": "á,",
+            "norm_word": "á",
+            "start": 105.42,
+            "end": 105.63
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 106.35,
+            "end": 106.59
+        },
+        {
+            "word": "æviloka.",
+            "norm_word": "æviloka",
+            "start": 106.59,
+            "end": 107.37
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 112.56,
+            "end": 112.89
+        },
+        {
+            "word": "hætti.",
+            "norm_word": "hætti",
+            "start": 112.89,
+            "end": 113.64
+        },
+        {
+            "word": "Þegar",
+            "norm_word": "þegar",
+            "start": 118.14,
+            "end": 118.38
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 118.38,
+            "end": 118.47
+        },
+        {
+            "word": "varð",
+            "norm_word": "varð",
+            "start": 118.47,
+            "end": 118.71
+        },
+        {
+            "word": "áttatíu",
+            "norm_word": "áttatíu",
+            "start": 118.71,
+            "end": 119.31
+        },
+        {
+            "word": "ára.",
+            "norm_word": "ára",
+            "start": 119.31,
+            "end": 119.67
+        },
+        {
+            "word": "Já.",
+            "norm_word": "já",
+            "start": 123.33,
+            "end": 124.05
+        },
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 127.5,
+            "end": 127.86
+        },
+        {
+            "word": "Ja,",
+            "norm_word": "ja",
+            "start": 133.8,
+            "end": 134.43
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 135.21,
+            "end": 135.45
+        },
+        {
+            "word": "get",
+            "norm_word": "get",
+            "start": 135.45,
+            "end": 135.69
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 135.69,
+            "end": 136.05
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 136.59,
+            "end": 136.92
+        },
+        {
+            "word": "sagt",
+            "norm_word": "sagt",
+            "start": 136.92,
+            "end": 137.37
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 137.37,
+            "end": 137.67
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 137.67,
+            "end": 137.94
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 138.93,
+            "end": 139.35
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 139.35,
+            "end": 139.53
+        },
+        {
+            "word": "við,",
+            "norm_word": "við",
+            "start": 139.53,
+            "end": 140.04
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 140.67,
+            "end": 141.0
+        },
+        {
+            "word": "konan",
+            "norm_word": "konan",
+            "start": 141.12,
+            "end": 141.51
+        },
+        {
+            "word": "mín",
+            "norm_word": "mín",
+            "start": 141.51,
+            "end": 141.66
+        },
+        {
+            "word": "dó",
+            "norm_word": "dó",
+            "start": 141.66,
+            "end": 141.9
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 141.9,
+            "end": 142.05
+        },
+        {
+            "word": "fyrir",
+            "norm_word": "fyrir",
+            "start": 142.05,
+            "end": 142.32
+        },
+        {
+            "word": "sex",
+            "norm_word": "sex",
+            "start": 142.32,
+            "end": 142.77
+        },
+        {
+            "word": "árum.",
+            "norm_word": "árum",
+            "start": 142.77,
+            "end": 143.34
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 144.33,
+            "end": 144.51
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 144.51,
+            "end": 144.93
+        },
+        {
+            "word": "að,",
+            "norm_word": "að",
+            "start": 144.93,
+            "end": 145.32
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 146.22,
+            "end": 146.4
+        },
+        {
+            "word": "meðan",
+            "norm_word": "meðan",
+            "start": 146.4,
+            "end": 146.79
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 146.79,
+            "end": 147.03
+        },
+        {
+            "word": "vorum",
+            "norm_word": "vorum",
+            "start": 147.03,
+            "end": 147.66
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 148.32,
+            "end": 148.5
+        },
+        {
+            "word": "góðu",
+            "norm_word": "góðu",
+            "start": 148.5,
+            "end": 149.16
+        },
+        {
+            "word": "formi,",
+            "norm_word": "formi",
+            "start": 149.19,
+            "end": 149.91
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 150.48,
+            "end": 150.72
+        },
+        {
+            "word": "vorum",
+            "norm_word": "vorum",
+            "start": 150.72,
+            "end": 150.99
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 150.99,
+            "end": 151.08
+        },
+        {
+            "word": "alltaf",
+            "norm_word": "alltaf",
+            "start": 151.08,
+            "end": 151.53
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 151.53,
+            "end": 151.65
+        },
+        {
+            "word": "ferðast",
+            "norm_word": "ferðast",
+            "start": 151.68,
+            "end": 152.37
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 152.37,
+            "end": 152.55
+        },
+        {
+            "word": "allan",
+            "norm_word": "allan",
+            "start": 152.55,
+            "end": 153.06
+        },
+        {
+            "word": "heim.",
+            "norm_word": "heim",
+            "start": 153.06,
+            "end": 153.54
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 157.71,
+            "end": 158.07
+        },
+        {
+            "word": "ferðuðumst",
+            "norm_word": "ferðuðumst",
+            "start": 158.07,
+            "end": 158.76
+        },
+        {
+            "word": "saman",
+            "norm_word": "saman",
+            "start": 158.76,
+            "end": 159.39
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 159.39,
+            "end": 159.54
+        },
+        {
+            "word": "hjónin.",
+            "norm_word": "hjónin",
+            "start": 159.54,
+            "end": 160.23
+        },
+        {
+            "word": "Um",
+            "norm_word": "um",
+            "start": 163.29,
+            "end": 163.59
+        },
+        {
+            "word": "allan",
+            "norm_word": "allan",
+            "start": 163.59,
+            "end": 164.1
+        },
+        {
+            "word": "heim.",
+            "norm_word": "heim",
+            "start": 164.1,
+            "end": 164.73
+        },
+        {
+            "word": "Hvar?",
+            "norm_word": "hvar",
+            "start": 167.91,
+            "end": 168.69
+        },
+        {
+            "word": "Um",
+            "norm_word": "um",
+            "start": 169.68,
+            "end": 169.89
+        },
+        {
+            "word": "allan",
+            "norm_word": "allan",
+            "start": 169.89,
+            "end": 170.31
+        },
+        {
+            "word": "heiminn.",
+            "norm_word": "heiminn",
+            "start": 170.31,
+            "end": 171.15
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 176.7,
+            "end": 176.82
+        },
+        {
+            "word": "vorum.",
+            "norm_word": "vorum",
+            "start": 176.82,
+            "end": 177.21
+        },
+        {
+            "word": "Við.",
+            "norm_word": "við",
+            "start": 182.64,
+            "end": 183.03
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 184.62,
+            "end": 184.92
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 184.92,
+            "end": 185.13
+        },
+        {
+            "word": "dæmis.",
+            "norm_word": "dæmis",
+            "start": 185.13,
+            "end": 185.61
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 186.87,
+            "end": 187.11
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 187.11,
+            "end": 187.56
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 187.56,
+            "end": 187.77
+        },
+        {
+            "word": "suður.",
+            "norm_word": "suður",
+            "start": 187.77,
+            "end": 188.46
+        },
+        {
+            "word": "[HIK:Suð]",
+            "norm_word": "",
+            "start": 193.05,
+            "end": 193.38
+        },
+        {
+            "word": "Á",
+            "norm_word": "á",
+            "start": 193.59,
+            "end": 193.74
+        },
+        {
+            "word": "Suðurskautið.",
+            "norm_word": "suðurskautið",
+            "start": 193.74,
+            "end": 195.15
+        },
+        {
+            "word": "Suðurskautið,",
+            "norm_word": "suðurskautið",
+            "start": 198.54,
+            "end": 199.47
+        },
+        {
+            "word": "syðsti",
+            "norm_word": "syðsti",
+            "start": 199.98,
+            "end": 200.67
+        },
+        {
+            "word": "partur",
+            "norm_word": "partur",
+            "start": 200.67,
+            "end": 201.39
+        },
+        {
+            "word": "jarðarinnar.",
+            "norm_word": "jarðarinnar",
+            "start": 202.86,
+            "end": 204.12
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 209.25,
+            "end": 209.46
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 209.46,
+            "end": 209.91
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 209.91,
+            "end": 210.12
+        },
+        {
+            "word": "dæmis",
+            "norm_word": "dæmis",
+            "start": 210.12,
+            "end": 210.48
+        },
+        {
+            "word": "þangað.",
+            "norm_word": "þangað",
+            "start": 210.48,
+            "end": 211.17
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 215.58,
+            "end": 215.85
+        },
+        {
+            "word": "labbaði",
+            "norm_word": "labbaði",
+            "start": 215.85,
+            "end": 216.3
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 216.33,
+            "end": 216.54
+        },
+        {
+            "word": "upp",
+            "norm_word": "upp",
+            "start": 216.54,
+            "end": 216.69
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 216.69,
+            "end": 216.78
+        },
+        {
+            "word": "toppinn.",
+            "norm_word": "toppinn",
+            "start": 216.81,
+            "end": 217.77
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 218.49,
+            "end": 218.67
+        },
+        {
+            "word": "konan",
+            "norm_word": "konan",
+            "start": 218.67,
+            "end": 219.21
+        },
+        {
+            "word": "mín,",
+            "norm_word": "mín",
+            "start": 219.21,
+            "end": 219.54
+        },
+        {
+            "word": "hún",
+            "norm_word": "hún",
+            "start": 219.69,
+            "end": 219.93
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 219.93,
+            "end": 220.08
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 220.08,
+            "end": 220.2
+        },
+        {
+            "word": "lofthrædd.",
+            "norm_word": "lofthrædd",
+            "start": 220.2,
+            "end": 221.1
+        },
+        {
+            "word": "Hún",
+            "norm_word": "hún",
+            "start": 221.49,
+            "end": 221.73
+        },
+        {
+            "word": "beið",
+            "norm_word": "beið",
+            "start": 221.73,
+            "end": 222.09
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 222.09,
+            "end": 222.6
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 223.02,
+            "end": 223.23
+        },
+        {
+            "word": "ströndina.",
+            "norm_word": "ströndina",
+            "start": 223.23,
+            "end": 224.19
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 225.12,
+            "end": 225.27
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 225.27,
+            "end": 225.75
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 225.75,
+            "end": 225.99
+        },
+        {
+            "word": "kom",
+            "norm_word": "kom",
+            "start": 225.99,
+            "end": 226.23
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 226.23,
+            "end": 226.38
+        },
+        {
+            "word": "baka,",
+            "norm_word": "baka",
+            "start": 226.38,
+            "end": 227.22
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 227.76,
+            "end": 228.03
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 228.03,
+            "end": 228.33
+        },
+        {
+            "word": "farið",
+            "norm_word": "farið",
+            "start": 228.66,
+            "end": 228.96
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 228.96,
+            "end": 229.14
+        },
+        {
+            "word": "okkur",
+            "norm_word": "okkur",
+            "start": 229.14,
+            "end": 229.5
+        },
+        {
+            "word": "á,",
+            "norm_word": "á",
+            "start": 229.5,
+            "end": 229.8
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 230.04,
+            "end": 230.25
+        },
+        {
+            "word": "skipi",
+            "norm_word": "skipi",
+            "start": 230.25,
+            "end": 231.09
+        },
+        {
+            "word": "yfir",
+            "norm_word": "yfir",
+            "start": 231.66,
+            "end": 232.02
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 232.02,
+            "end": 232.44
+        },
+        {
+            "word": "Suður-Ameríku.",
+            "norm_word": "suður ameríku",
+            "start": 232.62,
+            "end": 234.24
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 235.11,
+            "end": 235.29
+        },
+        {
+            "word": "þaðan",
+            "norm_word": "þaðan",
+            "start": 235.29,
+            "end": 235.89
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 236.04,
+            "end": 236.55
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 236.55,
+            "end": 236.88
+        },
+        {
+            "word": "norður",
+            "norm_word": "norður",
+            "start": 238.86,
+            "end": 239.55
+        },
+        {
+            "word": "alla",
+            "norm_word": "alla",
+            "start": 239.55,
+            "end": 240.0
+        },
+        {
+            "word": "Ameríku.",
+            "norm_word": "ameríku",
+            "start": 240.0,
+            "end": 240.93
+        },
+        {
+            "word": "Gistum",
+            "norm_word": "gistum",
+            "start": 241.35,
+            "end": 242.16
+        },
+        {
+            "word": "alltaf",
+            "norm_word": "alltaf",
+            "start": 242.25,
+            "end": 242.91
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 242.91,
+            "end": 243.18
+        },
+        {
+            "word": "heimilum,",
+            "norm_word": "heimilum",
+            "start": 243.57,
+            "end": 244.29
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 244.29,
+            "end": 244.38
+        },
+        {
+            "word": "gistum",
+            "norm_word": "gistum",
+            "start": 244.41,
+            "end": 244.86
+        },
+        {
+            "word": "aldrei",
+            "norm_word": "aldrei",
+            "start": 244.86,
+            "end": 245.55
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 245.91,
+            "end": 246.21
+        },
+        {
+            "word": "hótelum.",
+            "norm_word": "hótelum",
+            "start": 246.21,
+            "end": 247.23
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 252.75,
+            "end": 252.93
+        },
+        {
+            "word": "gistum",
+            "norm_word": "gistum",
+            "start": 252.93,
+            "end": 253.44
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 253.44,
+            "end": 253.65
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 253.65,
+            "end": 253.77
+        },
+        {
+            "word": "heimilum",
+            "norm_word": "heimilum",
+            "start": 253.77,
+            "end": 254.67
+        },
+        {
+            "word": "annara.",
+            "norm_word": "annara",
+            "start": 255.21,
+            "end": 255.93
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 258.96,
+            "end": 259.26
+        },
+        {
+            "word": "gistum",
+            "norm_word": "gistum",
+            "start": 259.26,
+            "end": 260.13
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 260.19,
+            "end": 260.67
+        },
+        {
+            "word": "heimilum",
+            "norm_word": "heimilum",
+            "start": 260.79,
+            "end": 261.51
+        },
+        {
+            "word": "alla",
+            "norm_word": "alla",
+            "start": 261.51,
+            "end": 261.84
+        },
+        {
+            "word": "leið",
+            "norm_word": "leið",
+            "start": 261.84,
+            "end": 262.08
+        },
+        {
+            "word": "norður",
+            "norm_word": "norður",
+            "start": 262.08,
+            "end": 262.74
+        },
+        {
+            "word": "alla",
+            "norm_word": "alla",
+            "start": 263.31,
+            "end": 263.82
+        },
+        {
+            "word": "Ameríku.",
+            "norm_word": "ameríku",
+            "start": 263.82,
+            "end": 264.78
+        },
+        {
+            "word": "Þangað",
+            "norm_word": "þangað",
+            "start": 265.38,
+            "end": 265.74
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 265.74,
+            "end": 265.95
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 265.95,
+            "end": 266.07
+        },
+        {
+            "word": "komum",
+            "norm_word": "komum",
+            "start": 266.1,
+            "end": 266.58
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 266.61,
+            "end": 267.06
+        },
+        {
+            "word": "höfuðborgarinnar.",
+            "norm_word": "höfuðborgarinnar",
+            "start": 267.09,
+            "end": 268.59
+        },
+        {
+            "word": "Í",
+            "norm_word": "í",
+            "start": 271.23,
+            "end": 271.41
+        },
+        {
+            "word": "Ameríku.",
+            "norm_word": "ameríku",
+            "start": 271.41,
+            "end": 272.34
+        },
+        {
+            "word": "Þá",
+            "norm_word": "þá",
+            "start": 272.73,
+            "end": 273.0
+        },
+        {
+            "word": "gátum",
+            "norm_word": "gátum",
+            "start": 273.0,
+            "end": 273.45
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 273.45,
+            "end": 273.54
+        },
+        {
+            "word": "fengið",
+            "norm_word": "fengið",
+            "start": 273.57,
+            "end": 274.05
+        },
+        {
+            "word": "flugvél,",
+            "norm_word": "flugvél",
+            "start": 274.05,
+            "end": 274.8
+        },
+        {
+            "word": "far",
+            "norm_word": "far",
+            "start": 275.4,
+            "end": 276.0
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 276.0,
+            "end": 276.15
+        },
+        {
+            "word": "flugvél",
+            "norm_word": "flugvél",
+            "start": 276.15,
+            "end": 276.72
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 276.72,
+            "end": 277.11
+        },
+        {
+            "word": "Íslands.",
+            "norm_word": "íslands",
+            "start": 277.29,
+            "end": 278.49
+        },
+        {
+            "word": "Frá",
+            "norm_word": "frá",
+            "start": 281.34,
+            "end": 281.61
+        },
+        {
+            "word": "höfuðborg",
+            "norm_word": "höfuðborg",
+            "start": 281.61,
+            "end": 282.39
+        },
+        {
+            "word": "Bandaríkjanna.",
+            "norm_word": "bandaríkjanna",
+            "start": 282.39,
+            "end": 283.32
+        },
+        {
+            "word": "Já.",
+            "norm_word": "já",
+            "start": 283.32,
+            "end": 283.38
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 289.77,
+            "end": 289.95
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 289.95,
+            "end": 290.19
+        },
+        {
+            "word": "vorum",
+            "norm_word": "vorum",
+            "start": 290.19,
+            "end": 290.46
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 290.46,
+            "end": 290.64
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 290.64,
+            "end": 290.73
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 290.73,
+            "end": 291.0
+        },
+        {
+            "word": "dæmis",
+            "norm_word": "dæmis",
+            "start": 291.0,
+            "end": 291.48
+        },
+        {
+            "word": "í,",
+            "norm_word": "í",
+            "start": 291.48,
+            "end": 291.87
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 292.62,
+            "end": 292.89
+        },
+        {
+            "word": "Kanada.",
+            "norm_word": "kanada",
+            "start": 292.89,
+            "end": 293.85
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 295.95,
+            "end": 296.13
+        },
+        {
+            "word": "þar",
+            "norm_word": "þar",
+            "start": 296.13,
+            "end": 296.67
+        },
+        {
+            "word": "hittum",
+            "norm_word": "hittum",
+            "start": 297.18,
+            "end": 297.84
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 297.84,
+            "end": 298.14
+        },
+        {
+            "word": "kunningja",
+            "norm_word": "kunningja",
+            "start": 300.48,
+            "end": 301.23
+        },
+        {
+            "word": "minn.",
+            "norm_word": "minn",
+            "start": 301.23,
+            "end": 302.16
+        },
+        {
+            "word": "Hann",
+            "norm_word": "hann",
+            "start": 302.91,
+            "end": 303.33
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 303.36,
+            "end": 303.78
+        },
+        {
+            "word": "farið,",
+            "norm_word": "farið",
+            "start": 303.78,
+            "end": 304.68
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 305.04,
+            "end": 305.28
+        },
+        {
+            "word": "var.",
+            "norm_word": "var",
+            "start": 305.28,
+            "end": 305.67
+        },
+        {
+            "word": "Hann",
+            "norm_word": "hann",
+            "start": 308.73,
+            "end": 308.91
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 308.91,
+            "end": 309.12
+        },
+        {
+            "word": "Íslendingur.",
+            "norm_word": "íslendingur",
+            "start": 309.12,
+            "end": 310.26
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 311.01,
+            "end": 311.1
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 311.1,
+            "end": 311.46
+        },
+        {
+            "word": "farið,",
+            "norm_word": "farið",
+            "start": 311.46,
+            "end": 312.27
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 312.78,
+            "end": 313.05
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 313.05,
+            "end": 313.29
+        },
+        {
+            "word": "verið",
+            "norm_word": "verið",
+            "start": 313.29,
+            "end": 313.62
+        },
+        {
+            "word": "læknir",
+            "norm_word": "læknir",
+            "start": 313.62,
+            "end": 314.46
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 315.06,
+            "end": 315.33
+        },
+        {
+            "word": "Húsavík",
+            "norm_word": "húsavík",
+            "start": 315.33,
+            "end": 316.41
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 316.5,
+            "end": 316.68
+        },
+        {
+            "word": "Íslandi.",
+            "norm_word": "íslandi",
+            "start": 316.68,
+            "end": 317.55
+        },
+        {
+            "word": "Hann.",
+            "norm_word": "hann",
+            "start": 318.9,
+            "end": 319.44
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 322.41,
+            "end": 322.62
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 322.62,
+            "end": 322.83
+        },
+        {
+            "word": "hafi",
+            "norm_word": "hafi",
+            "start": 322.83,
+            "end": 323.07
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 323.07,
+            "end": 323.28
+        },
+        {
+            "word": "farið",
+            "norm_word": "farið",
+            "start": 323.28,
+            "end": 323.82
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 323.85,
+            "end": 324.12
+        },
+        {
+            "word": "[HIK:Banda],",
+            "norm_word": "",
+            "start": 324.12,
+            "end": 324.69
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 324.84,
+            "end": 325.05
+        },
+        {
+            "word": "Kanada.",
+            "norm_word": "kanada",
+            "start": 325.05,
+            "end": 325.89
+        },
+        {
+            "word": "Eins",
+            "norm_word": "eins",
+            "start": 326.43,
+            "end": 326.64
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 326.64,
+            "end": 326.79
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 326.79,
+            "end": 326.94
+        },
+        {
+            "word": "margir",
+            "norm_word": "margir",
+            "start": 326.94,
+            "end": 327.54
+        },
+        {
+            "word": "aðrir",
+            "norm_word": "aðrir",
+            "start": 327.54,
+            "end": 328.2
+        },
+        {
+            "word": "Íslendingar,",
+            "norm_word": "íslendingar",
+            "start": 328.95,
+            "end": 329.82
+        },
+        {
+            "word": "þeir",
+            "norm_word": "þeir",
+            "start": 329.82,
+            "end": 330.06
+        },
+        {
+            "word": "fóru",
+            "norm_word": "fóru",
+            "start": 330.06,
+            "end": 330.36
+        },
+        {
+            "word": "voðalega",
+            "norm_word": "voðalega",
+            "start": 330.36,
+            "end": 330.9
+        },
+        {
+            "word": "margir",
+            "norm_word": "margir",
+            "start": 330.9,
+            "end": 331.44
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 331.95,
+            "end": 332.31
+        },
+        {
+            "word": "[HIK:kan]",
+            "norm_word": "",
+            "start": 332.34,
+            "end": 332.79
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 333.12,
+            "end": 333.36
+        },
+        {
+            "word": "Kanada.",
+            "norm_word": "kanada",
+            "start": 333.36,
+            "end": 334.14
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 334.98,
+            "end": 335.13
+        },
+        {
+            "word": "þar",
+            "norm_word": "þar",
+            "start": 335.13,
+            "end": 335.49
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 335.49,
+            "end": 335.76
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 335.76,
+            "end": 336.03
+        },
+        {
+            "word": "læknir.",
+            "norm_word": "læknir",
+            "start": 336.03,
+            "end": 336.96
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 338.1,
+            "end": 338.37
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 338.37,
+            "end": 338.67
+        },
+        {
+            "word": "flaug",
+            "norm_word": "flaug",
+            "start": 338.67,
+            "end": 339.18
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 339.18,
+            "end": 339.33
+        },
+        {
+            "word": "þyrlu.",
+            "norm_word": "þyrlu",
+            "start": 339.33,
+            "end": 340.23
+        },
+        {
+            "word": "Hann",
+            "norm_word": "hann",
+            "start": 345.24,
+            "end": 345.51
+        },
+        {
+            "word": "[HIK:flau].",
+            "norm_word": "",
+            "start": 345.51,
+            "end": 345.75
+        },
+        {
+            "word": "Hann",
+            "norm_word": "hann",
+            "start": 350.55,
+            "end": 350.85
+        },
+        {
+            "word": "flaug",
+            "norm_word": "flaug",
+            "start": 350.85,
+            "end": 351.57
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 351.6,
+            "end": 351.81
+        },
+        {
+            "word": "þyrlu.",
+            "norm_word": "þyrlu",
+            "start": 351.81,
+            "end": 352.62
+        },
+        {
+            "word": "Af",
+            "norm_word": "af",
+            "start": 353.25,
+            "end": 353.4
+        },
+        {
+            "word": "því",
+            "norm_word": "því",
+            "start": 353.4,
+            "end": 353.55
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 353.55,
+            "end": 353.61
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 353.61,
+            "end": 353.88
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 353.88,
+            "end": 354.09
+        },
+        {
+            "word": "ekkert",
+            "norm_word": "ekkert",
+            "start": 354.09,
+            "end": 354.36
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 354.36,
+            "end": 354.45
+        },
+        {
+            "word": "láta",
+            "norm_word": "láta",
+            "start": 354.45,
+            "end": 354.75
+        },
+        {
+            "word": "fólk",
+            "norm_word": "fólk",
+            "start": 354.75,
+            "end": 355.14
+        },
+        {
+            "word": "flytja",
+            "norm_word": "flytja",
+            "start": 355.14,
+            "end": 355.59
+        },
+        {
+            "word": "sig.",
+            "norm_word": "sig",
+            "start": 355.59,
+            "end": 355.95
+        },
+        {
+            "word": "Hann",
+            "norm_word": "hann",
+            "start": 356.76,
+            "end": 357.03
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 357.03,
+            "end": 357.27
+        },
+        {
+            "word": "fór",
+            "norm_word": "fór",
+            "start": 357.3,
+            "end": 357.63
+        },
+        {
+            "word": "á,",
+            "norm_word": "á",
+            "start": 357.63,
+            "end": 357.96
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 358.02,
+            "end": 358.38
+        },
+        {
+            "word": "staðina",
+            "norm_word": "staðina",
+            "start": 359.04,
+            "end": 359.64
+        },
+        {
+            "word": "sem",
+            "norm_word": "sem",
+            "start": 359.64,
+            "end": 359.82
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 359.82,
+            "end": 359.91
+        },
+        {
+            "word": "átti",
+            "norm_word": "átti",
+            "start": 359.91,
+            "end": 360.12
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 360.12,
+            "end": 360.21
+        },
+        {
+            "word": "mæta",
+            "norm_word": "mæta",
+            "start": 360.21,
+            "end": 360.66
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 360.66,
+            "end": 360.69
+        },
+        {
+            "word": "sem",
+            "norm_word": "sem",
+            "start": 360.69,
+            "end": 360.93
+        },
+        {
+            "word": "læknir.",
+            "norm_word": "læknir",
+            "start": 360.93,
+            "end": 361.65
+        },
+        {
+            "word": "Auðvitað.",
+            "norm_word": "auðvitað",
+            "start": 365.73,
+            "end": 366.57
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 368.64,
+            "end": 368.88
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 368.88,
+            "end": 369.09
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 369.09,
+            "end": 369.45
+        },
+        {
+            "word": "ættaður",
+            "norm_word": "ættaður",
+            "start": 369.48,
+            "end": 370.32
+        },
+        {
+            "word": "úr,",
+            "norm_word": "úr",
+            "start": 370.32,
+            "end": 370.59
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 371.43,
+            "end": 371.7
+        },
+        {
+            "word": "Íslandi",
+            "norm_word": "íslandi",
+            "start": 371.7,
+            "end": 372.36
+        },
+        {
+            "word": "náttúrulega,",
+            "norm_word": "náttúrulega",
+            "start": 372.36,
+            "end": 373.11
+        },
+        {
+            "word": "úr",
+            "norm_word": "úr",
+            "start": 373.2,
+            "end": 373.65
+        },
+        {
+            "word": "Skagafirði.",
+            "norm_word": "skagafirði",
+            "start": 373.65,
+            "end": 374.76
+        },
+        {
+            "word": "Og.",
+            "norm_word": "og",
+            "start": 375.63,
+            "end": 376.2
+        },
+        {
+            "word": "Norður",
+            "norm_word": "norður",
+            "start": 380.1,
+            "end": 380.94
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 381.24,
+            "end": 381.45
+        },
+        {
+            "word": "Íslandi.",
+            "norm_word": "íslandi",
+            "start": 381.45,
+            "end": 382.23
+        },
+        {
+            "word": "[HIK:skaga]",
+            "norm_word": "",
+            "start": 383.52,
+            "end": 384.18
+        },
+        {
+            "word": "Skagafjörður.",
+            "norm_word": "skagafjörður",
+            "start": 384.87,
+            "end": 386.22
+        },
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 388.41,
+            "end": 388.89
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 393.33,
+            "end": 393.57
+        },
+        {
+            "word": "er",
+            "norm_word": "er",
+            "start": 393.6,
+            "end": 393.87
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 399.0,
+            "end": 399.33
+        },
+        {
+            "word": "vestan",
+            "norm_word": "vestan",
+            "start": 399.72,
+            "end": 400.77
+        },
+        {
+            "word": "við.",
+            "norm_word": "við",
+            "start": 400.77,
+            "end": 401.13
+        },
+        {
+            "word": "Nei,",
+            "norm_word": "nei",
+            "start": 401.82,
+            "end": 402.18
+        },
+        {
+            "word": "já.",
+            "norm_word": "já",
+            "start": 402.24,
+            "end": 402.63
+        },
+        {
+            "word": "Nei,",
+            "norm_word": "nei",
+            "start": 403.23,
+            "end": 403.53
+        },
+        {
+            "word": "fyrirgefðu",
+            "norm_word": "fyrirgefðu",
+            "start": 403.65,
+            "end": 404.28
+        },
+        {
+            "word": "austan",
+            "norm_word": "austan",
+            "start": 404.28,
+            "end": 404.85
+        },
+        {
+            "word": "við,",
+            "norm_word": "við",
+            "start": 404.85,
+            "end": 405.12
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 407.1,
+            "end": 407.37
+        },
+        {
+            "word": "Dalvík.",
+            "norm_word": "dalvík",
+            "start": 407.64,
+            "end": 408.39
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 411.06,
+            "end": 411.42
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 413.52,
+            "end": 413.79
+        },
+        {
+            "word": "gaf",
+            "norm_word": "gaf",
+            "start": 413.79,
+            "end": 414.12
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 414.12,
+            "end": 414.27
+        },
+        {
+            "word": "okkur",
+            "norm_word": "okkur",
+            "start": 414.27,
+            "end": 414.54
+        },
+        {
+            "word": "náttúrulega",
+            "norm_word": "náttúrulega",
+            "start": 414.54,
+            "end": 414.9
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 414.93,
+            "end": 415.23
+        },
+        {
+            "word": "bók",
+            "norm_word": "bók",
+            "start": 415.26,
+            "end": 415.74
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 415.74,
+            "end": 415.92
+        },
+        {
+            "word": "sig.",
+            "norm_word": "sig",
+            "start": 415.92,
+            "end": 416.43
+        },
+        {
+            "word": "Og,",
+            "norm_word": "og",
+            "start": 417.93,
+            "end": 418.47
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 419.58,
+            "end": 419.85
+        },
+        {
+            "word": "kallaði",
+            "norm_word": "kallaði",
+            "start": 419.88,
+            "end": 420.45
+        },
+        {
+            "word": "sig",
+            "norm_word": "sig",
+            "start": 420.45,
+            "end": 420.63
+        },
+        {
+            "word": "Bjössa",
+            "norm_word": "bjössa",
+            "start": 420.63,
+            "end": 421.2
+        },
+        {
+            "word": "Bomm.",
+            "norm_word": "bomm",
+            "start": 421.2,
+            "end": 421.71
+        },
+        {
+            "word": "Ja,",
+            "norm_word": "ja",
+            "start": 425.61,
+            "end": 425.85
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 425.88,
+            "end": 426.33
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 426.33,
+            "end": 426.39
+        },
+        {
+            "word": "því",
+            "norm_word": "því",
+            "start": 426.39,
+            "end": 426.63
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 426.63,
+            "end": 426.72
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 426.72,
+            "end": 426.87
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 426.87,
+            "end": 427.11
+        },
+        {
+            "word": "svona",
+            "norm_word": "svona",
+            "start": 427.11,
+            "end": 427.68
+        },
+        {
+            "word": "skemmtilegur.",
+            "norm_word": "skemmtilegur",
+            "start": 429.06,
+            "end": 430.26
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 431.76,
+            "end": 431.97
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 431.97,
+            "end": 432.18
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 432.18,
+            "end": 432.36
+        },
+        {
+            "word": "læknir",
+            "norm_word": "læknir",
+            "start": 432.36,
+            "end": 433.05
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 433.44,
+            "end": 433.62
+        },
+        {
+            "word": "Kanada",
+            "norm_word": "kanada",
+            "start": 433.62,
+            "end": 434.25
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 434.25,
+            "end": 434.31
+        },
+        {
+            "word": "mörg",
+            "norm_word": "mörg",
+            "start": 434.31,
+            "end": 434.7
+        },
+        {
+            "word": "ár.",
+            "norm_word": "ár",
+            "start": 434.7,
+            "end": 435.03
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 437.04,
+            "end": 437.22
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 437.22,
+            "end": 437.43
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 437.43,
+            "end": 437.61
+        },
+        {
+            "word": "bróðir",
+            "norm_word": "bróðir",
+            "start": 437.61,
+            "end": 438.15
+        },
+        {
+            "word": "hans.",
+            "norm_word": "hans",
+            "start": 438.15,
+            "end": 438.51
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 439.02,
+            "end": 439.26
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 439.26,
+            "end": 439.5
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 439.5,
+            "end": 439.68
+        },
+        {
+            "word": "byggt",
+            "norm_word": "byggt",
+            "start": 439.68,
+            "end": 440.13
+        },
+        {
+            "word": "fyrir",
+            "norm_word": "fyrir",
+            "start": 440.13,
+            "end": 440.34
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 440.34,
+            "end": 440.52
+        },
+        {
+            "word": "hús",
+            "norm_word": "hús",
+            "start": 440.52,
+            "end": 440.94
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 440.94,
+            "end": 441.06
+        },
+        {
+            "word": "Reykjavík.",
+            "norm_word": "reykjavík",
+            "start": 441.06,
+            "end": 441.99
+        },
+        {
+            "word": "Já.",
+            "norm_word": "já",
+            "start": 443.34,
+            "end": 444.03
+        },
+        {
+            "word": "Já.",
+            "norm_word": "já",
+            "start": 445.83,
+            "end": 446.34
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 447.54,
+            "end": 447.81
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 447.81,
+            "end": 448.05
+        },
+        {
+            "word": "uppi",
+            "norm_word": "uppi",
+            "start": 448.05,
+            "end": 448.65
+        },
+        {
+            "word": "fyrir",
+            "norm_word": "fyrir",
+            "start": 448.89,
+            "end": 449.16
+        },
+        {
+            "word": "ofan",
+            "norm_word": "ofan",
+            "start": 449.16,
+            "end": 449.7
+        },
+        {
+            "word": "hérna.",
+            "norm_word": "hérna",
+            "start": 450.63,
+            "end": 451.17
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 453.81,
+            "end": 454.08
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 454.08,
+            "end": 454.29
+        },
+        {
+            "word": "uppi",
+            "norm_word": "uppi",
+            "start": 454.29,
+            "end": 454.62
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 454.62,
+            "end": 454.68
+        },
+        {
+            "word": "Árbæ.",
+            "norm_word": "árbæ",
+            "start": 454.68,
+            "end": 455.46
+        },
+        {
+            "word": "Eða",
+            "norm_word": "eða",
+            "start": 456.78,
+            "end": 457.08
+        },
+        {
+            "word": "þar.",
+            "norm_word": "þar",
+            "start": 457.08,
+            "end": 457.53
+        },
+        {
+            "word": "Og,",
+            "norm_word": "og",
+            "start": 458.16,
+            "end": 458.67
+        },
+        {
+            "word": "en",
+            "norm_word": "en",
+            "start": 459.15,
+            "end": 459.36
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 459.36,
+            "end": 459.57
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 459.57,
+            "end": 459.78
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 459.78,
+            "end": 459.93
+        },
+        {
+            "word": "málað",
+            "norm_word": "málað",
+            "start": 459.93,
+            "end": 460.38
+        },
+        {
+            "word": "myndir,",
+            "norm_word": "myndir",
+            "start": 460.38,
+            "end": 460.86
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 460.86,
+            "end": 461.1
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 461.1,
+            "end": 461.25
+        },
+        {
+            "word": "nefnilega",
+            "norm_word": "nefnilega",
+            "start": 461.25,
+            "end": 461.64
+        },
+        {
+            "word": "málverka,",
+            "norm_word": "málverka",
+            "start": 462.39,
+            "end": 463.44
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 463.59,
+            "end": 463.83
+        },
+        {
+            "word": "málaði",
+            "norm_word": "málaði",
+            "start": 463.83,
+            "end": 464.4
+        },
+        {
+            "word": "myndir.",
+            "norm_word": "myndir",
+            "start": 464.4,
+            "end": 465.15
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 466.86,
+            "end": 467.04
+        },
+        {
+            "word": "var,",
+            "norm_word": "var",
+            "start": 467.04,
+            "end": 467.25
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 467.25,
+            "end": 467.49
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 467.49,
+            "end": 467.73
+        },
+        {
+            "word": "listmálari.",
+            "norm_word": "listmálari",
+            "start": 468.03,
+            "end": 469.2
+        },
+        {
+            "word": "Ég.",
+            "norm_word": "ég",
+            "start": 472.05,
+            "end": 472.68
+        },
+        {
+            "word": "Þannig",
+            "norm_word": "þannig",
+            "start": 474.93,
+            "end": 475.32
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 475.32,
+            "end": 475.53
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 475.53,
+            "end": 475.86
+        },
+        {
+            "word": "bara.",
+            "norm_word": "bara",
+            "start": 475.86,
+            "end": 476.31
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 483.15,
+            "end": 483.45
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 483.48,
+            "end": 483.78
+        },
+        {
+            "word": "bara,",
+            "norm_word": "bara",
+            "start": 483.84,
+            "end": 484.05
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 485.01,
+            "end": 485.34
+        },
+        {
+            "word": "landslag",
+            "norm_word": "landslag",
+            "start": 485.37,
+            "end": 486.3
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 486.3,
+            "end": 486.42
+        },
+        {
+            "word": "alls",
+            "norm_word": "alls",
+            "start": 486.42,
+            "end": 486.72
+        },
+        {
+            "word": "konar.",
+            "norm_word": "konar",
+            "start": 486.72,
+            "end": 487.32
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 488.61,
+            "end": 488.85
+        },
+        {
+            "word": "málaði",
+            "norm_word": "málaði",
+            "start": 488.85,
+            "end": 489.39
+        },
+        {
+            "word": "bæði",
+            "norm_word": "bæði",
+            "start": 489.39,
+            "end": 489.78
+        },
+        {
+            "word": "hérna",
+            "norm_word": "hérna",
+            "start": 489.78,
+            "end": 490.29
+        },
+        {
+            "word": "og,",
+            "norm_word": "og",
+            "start": 490.29,
+            "end": 490.56
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 491.04,
+            "end": 491.37
+        },
+        {
+            "word": "austur",
+            "norm_word": "austur",
+            "start": 491.37,
+            "end": 491.88
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 491.88,
+            "end": 491.94
+        },
+        {
+            "word": "landi.",
+            "norm_word": "landi",
+            "start": 491.94,
+            "end": 492.63
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 493.29,
+            "end": 493.47
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 493.47,
+            "end": 493.65
+        },
+        {
+            "word": "fór",
+            "norm_word": "fór",
+            "start": 493.65,
+            "end": 494.01
+        },
+        {
+            "word": "ég,",
+            "norm_word": "ég",
+            "start": 494.01,
+            "end": 494.43
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 494.49,
+            "end": 494.82
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 494.82,
+            "end": 494.94
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 494.94,
+            "end": 495.3
+        },
+        {
+            "word": "[HIK:fól]",
+            "norm_word": "",
+            "start": 496.02,
+            "end": 496.38
+        },
+        {
+            "word": "erlent",
+            "norm_word": "erlent",
+            "start": 497.28,
+            "end": 497.88
+        },
+        {
+            "word": "fólk",
+            "norm_word": "fólk",
+            "start": 497.88,
+            "end": 498.27
+        },
+        {
+            "word": "alltaf",
+            "norm_word": "alltaf",
+            "start": 498.27,
+            "end": 498.6
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 498.6,
+            "end": 498.72
+        },
+        {
+            "word": "ferðalögum",
+            "norm_word": "ferðalögum",
+            "start": 498.72,
+            "end": 499.5
+        },
+        {
+            "word": "kringum",
+            "norm_word": "kringum",
+            "start": 499.5,
+            "end": 499.98
+        },
+        {
+            "word": "landið.",
+            "norm_word": "landið",
+            "start": 499.98,
+            "end": 500.55
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 502.71,
+            "end": 502.86
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 502.86,
+            "end": 503.13
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 503.13,
+            "end": 503.31
+        },
+        {
+            "word": "eins",
+            "norm_word": "eins",
+            "start": 503.31,
+            "end": 503.91
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 504.84,
+            "end": 505.23
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 505.23,
+            "end": 505.35
+        },
+        {
+            "word": "vorum.",
+            "norm_word": "vorum",
+            "start": 505.35,
+            "end": 505.86
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 507.0,
+            "end": 507.27
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 507.27,
+            "end": 507.72
+        },
+        {
+            "word": "frá",
+            "norm_word": "frá",
+            "start": 507.72,
+            "end": 508.05
+        },
+        {
+            "word": "Finnlandi",
+            "norm_word": "finnlandi",
+            "start": 508.05,
+            "end": 508.77
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 508.77,
+            "end": 508.98
+        },
+        {
+            "word": "Kanada.",
+            "norm_word": "kanada",
+            "start": 508.98,
+            "end": 509.85
+        },
+        {
+            "word": "Nei,",
+            "norm_word": "nei",
+            "start": 510.42,
+            "end": 510.57
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 510.57,
+            "end": 510.78
+        },
+        {
+            "word": "Rússlands.",
+            "norm_word": "rússlands",
+            "start": 510.78,
+            "end": 511.44
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 515.4,
+            "end": 515.61
+        },
+        {
+            "word": "hjónin",
+            "norm_word": "hjónin",
+            "start": 515.61,
+            "end": 516.18
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 516.48,
+            "end": 517.02
+        },
+        {
+            "word": "saman",
+            "norm_word": "saman",
+            "start": 517.02,
+            "end": 517.86
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 518.25,
+            "end": 518.43
+        },
+        {
+            "word": "skipi",
+            "norm_word": "skipi",
+            "start": 518.43,
+            "end": 519.36
+        },
+        {
+            "word": "frá,",
+            "norm_word": "frá",
+            "start": 520.02,
+            "end": 520.35
+        },
+        {
+            "word": "frá",
+            "norm_word": "frá",
+            "start": 520.83,
+            "end": 521.13
+        },
+        {
+            "word": "Finnlandi",
+            "norm_word": "finnlandi",
+            "start": 521.13,
+            "end": 522.18
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 522.78,
+            "end": 523.2
+        },
+        {
+            "word": "Rússlands.",
+            "norm_word": "rússlands",
+            "start": 523.23,
+            "end": 524.04
+        },
+        {
+            "word": "Nei.",
+            "norm_word": "nei",
+            "start": 525.96,
+            "end": 526.38
+        },
+        {
+            "word": "Skip.",
+            "norm_word": "skip",
+            "start": 527.07,
+            "end": 527.79
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 528.57,
+            "end": 528.72
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 528.72,
+            "end": 528.93
+        },
+        {
+            "word": "fengum",
+            "norm_word": "fengum",
+            "start": 528.93,
+            "end": 529.44
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 529.44,
+            "end": 529.77
+        },
+        {
+            "word": "að,",
+            "norm_word": "að",
+            "start": 529.77,
+            "end": 530.01
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 530.55,
+            "end": 530.73
+        },
+        {
+            "word": "fengum",
+            "norm_word": "fengum",
+            "start": 530.73,
+            "end": 531.12
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 531.12,
+            "end": 531.42
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 531.42,
+            "end": 531.48
+        },
+        {
+            "word": "fara",
+            "norm_word": "fara",
+            "start": 531.48,
+            "end": 531.72
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 531.72,
+            "end": 531.9
+        },
+        {
+            "word": "vegabréfin",
+            "norm_word": "vegabréfin",
+            "start": 531.9,
+            "end": 532.89
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 532.89,
+            "end": 533.01
+        },
+        {
+            "word": "land",
+            "norm_word": "land",
+            "start": 533.01,
+            "end": 533.61
+        },
+        {
+            "word": "í,",
+            "norm_word": "í",
+            "start": 534.51,
+            "end": 534.84
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 535.02,
+            "end": 535.44
+        },
+        {
+            "word": "Pétursborg.",
+            "norm_word": "pétursborg",
+            "start": 535.53,
+            "end": 536.58
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 539.61,
+            "end": 539.88
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 539.88,
+            "end": 540.09
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 540.09,
+            "end": 540.33
+        },
+        {
+            "word": "bjuggum",
+            "norm_word": "bjuggum",
+            "start": 540.36,
+            "end": 540.84
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 540.84,
+            "end": 540.96
+        },
+        {
+            "word": "borð",
+            "norm_word": "borð",
+            "start": 540.99,
+            "end": 541.35
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 541.35,
+            "end": 541.5
+        },
+        {
+            "word": "skipinu.",
+            "norm_word": "skipinu",
+            "start": 541.5,
+            "end": 542.4
+        },
+        {
+            "word": "Borðuðum",
+            "norm_word": "borðuðum",
+            "start": 543.03,
+            "end": 543.75
+        },
+        {
+            "word": "þar.",
+            "norm_word": "þar",
+            "start": 543.75,
+            "end": 544.23
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 544.68,
+            "end": 544.86
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 544.86,
+            "end": 545.04
+        },
+        {
+            "word": "vorum",
+            "norm_word": "vorum",
+            "start": 545.04,
+            "end": 545.37
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 545.37,
+            "end": 545.49
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 545.49,
+            "end": 545.55
+        },
+        {
+            "word": "ferðast",
+            "norm_word": "ferðast",
+            "start": 545.55,
+            "end": 546.12
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 546.12,
+            "end": 546.45
+        },
+        {
+            "word": "borgina",
+            "norm_word": "borgina",
+            "start": 546.87,
+            "end": 547.77
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 549.06,
+            "end": 549.27
+        },
+        {
+            "word": "rútu.",
+            "norm_word": "rútu",
+            "start": 549.27,
+            "end": 549.9
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 551.82,
+            "end": 552.0
+        },
+        {
+            "word": "meðal",
+            "norm_word": "meðal",
+            "start": 552.0,
+            "end": 552.54
+        },
+        {
+            "word": "annars",
+            "norm_word": "annars",
+            "start": 552.54,
+            "end": 552.93
+        },
+        {
+            "word": "komumst",
+            "norm_word": "komumst",
+            "start": 554.73,
+            "end": 555.3
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 555.3,
+            "end": 555.54
+        },
+        {
+            "word": "í,",
+            "norm_word": "í",
+            "start": 555.54,
+            "end": 556.38
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 556.38,
+            "end": 556.41
+        },
+        {
+            "word": "Pétursborg.",
+            "norm_word": "pétursborg",
+            "start": 556.68,
+            "end": 558.03
+        },
+        {
+            "word": "Inn",
+            "norm_word": "inn",
+            "start": 559.53,
+            "end": 559.83
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 559.83,
+            "end": 559.95
+        },
+        {
+            "word": "hana.",
+            "norm_word": "hana",
+            "start": 559.95,
+            "end": 560.61
+        },
+        {
+            "word": "Af",
+            "norm_word": "af",
+            "start": 561.72,
+            "end": 561.87
+        },
+        {
+            "word": "því",
+            "norm_word": "því",
+            "start": 561.87,
+            "end": 562.05
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 562.05,
+            "end": 562.26
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 562.26,
+            "end": 562.47
+        },
+        {
+            "word": "stúlka",
+            "norm_word": "stúlka",
+            "start": 562.47,
+            "end": 563.22
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 563.94,
+            "end": 564.18
+        },
+        {
+            "word": "hóp",
+            "norm_word": "hóp",
+            "start": 564.18,
+            "end": 564.6
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 564.6,
+            "end": 564.75
+        },
+        {
+            "word": "frönsk",
+            "norm_word": "frönsk",
+            "start": 564.75,
+            "end": 565.29
+        },
+        {
+            "word": "mönnum",
+            "norm_word": "mönnum",
+            "start": 565.29,
+            "end": 565.68
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 565.68,
+            "end": 565.77
+        },
+        {
+            "word": "fara",
+            "norm_word": "fara",
+            "start": 565.77,
+            "end": 566.01
+        },
+        {
+            "word": "inn.",
+            "norm_word": "inn",
+            "start": 566.01,
+            "end": 566.34
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 568.2,
+            "end": 568.44
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 568.44,
+            "end": 568.77
+        },
+        {
+            "word": "eltum",
+            "norm_word": "eltum",
+            "start": 568.77,
+            "end": 569.43
+        },
+        {
+            "word": "hana,",
+            "norm_word": "hana",
+            "start": 569.73,
+            "end": 570.39
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 570.84,
+            "end": 570.99
+        },
+        {
+            "word": "því",
+            "norm_word": "því",
+            "start": 570.99,
+            "end": 571.08
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 571.08,
+            "end": 571.14
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 571.14,
+            "end": 571.32
+        },
+        {
+            "word": "talaði",
+            "norm_word": "talaði",
+            "start": 571.32,
+            "end": 571.71
+        },
+        {
+            "word": "alltaf",
+            "norm_word": "alltaf",
+            "start": 571.71,
+            "end": 572.04
+        },
+        {
+            "word": "frönsku",
+            "norm_word": "frönsku",
+            "start": 572.07,
+            "end": 572.97
+        },
+        {
+            "word": "erlendis.",
+            "norm_word": "erlendis",
+            "start": 573.75,
+            "end": 574.74
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 577.29,
+            "end": 577.89
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 578.61,
+            "end": 578.94
+        },
+        {
+            "word": "allt",
+            "norm_word": "allt",
+            "start": 578.94,
+            "end": 579.3
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 579.3,
+            "end": 579.36
+        },
+        {
+            "word": "einu",
+            "norm_word": "einu",
+            "start": 579.36,
+            "end": 579.54
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 579.54,
+            "end": 579.69
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 579.69,
+            "end": 579.78
+        },
+        {
+            "word": "erum",
+            "norm_word": "erum",
+            "start": 579.78,
+            "end": 579.9
+        },
+        {
+            "word": "komin.",
+            "norm_word": "komin",
+            "start": 579.9,
+            "end": 580.44
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 580.83,
+            "end": 581.07
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 581.07,
+            "end": 581.19
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 581.19,
+            "end": 581.34
+        },
+        {
+            "word": "sem",
+            "norm_word": "sem",
+            "start": 581.34,
+            "end": 581.43
+        },
+        {
+            "word": "búinn",
+            "norm_word": "búinn",
+            "start": 581.43,
+            "end": 581.64
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 581.64,
+            "end": 581.73
+        },
+        {
+            "word": "lesa",
+            "norm_word": "lesa",
+            "start": 581.73,
+            "end": 582.27
+        },
+        {
+            "word": "um",
+            "norm_word": "um",
+            "start": 582.27,
+            "end": 582.6
+        },
+        {
+            "word": "Pétursborg,",
+            "norm_word": "pétursborg",
+            "start": 582.63,
+            "end": 583.71
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 584.25,
+            "end": 584.31
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 584.31,
+            "end": 584.46
+        },
+        {
+            "word": "tæki",
+            "norm_word": "tæki",
+            "start": 584.46,
+            "end": 584.85
+        },
+        {
+            "word": "fjörutíu",
+            "norm_word": "fjörutíu",
+            "start": 584.85,
+            "end": 585.6
+        },
+        {
+            "word": "daga",
+            "norm_word": "daga",
+            "start": 585.6,
+            "end": 586.23
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 586.62,
+            "end": 586.8
+        },
+        {
+            "word": "komast",
+            "norm_word": "komast",
+            "start": 586.8,
+            "end": 587.34
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 587.34,
+            "end": 587.46
+        },
+        {
+            "word": "öll",
+            "norm_word": "öll",
+            "start": 587.46,
+            "end": 587.73
+        },
+        {
+            "word": "herbergin.",
+            "norm_word": "herbergin",
+            "start": 587.73,
+            "end": 588.69
+        },
+        {
+            "word": "En,",
+            "norm_word": "en",
+            "start": 591.84,
+            "end": 592.47
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 593.34,
+            "end": 593.7
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 593.7,
+            "end": 593.94
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 593.94,
+            "end": 594.15
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 594.15,
+            "end": 594.27
+        },
+        {
+            "word": "erum",
+            "norm_word": "erum",
+            "start": 594.27,
+            "end": 594.39
+        },
+        {
+            "word": "komin",
+            "norm_word": "komin",
+            "start": 594.42,
+            "end": 594.78
+        },
+        {
+            "word": "rétt",
+            "norm_word": "rétt",
+            "start": 594.78,
+            "end": 595.29
+        },
+        {
+            "word": "inn,",
+            "norm_word": "inn",
+            "start": 595.29,
+            "end": 595.83
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 596.79,
+            "end": 597.06
+        },
+        {
+            "word": "sjáum",
+            "norm_word": "sjáum",
+            "start": 597.06,
+            "end": 597.48
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 597.48,
+            "end": 597.57
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 597.57,
+            "end": 597.81
+        },
+        {
+            "word": "mynd",
+            "norm_word": "mynd",
+            "start": 597.81,
+            "end": 598.32
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 598.32,
+            "end": 598.47
+        },
+        {
+            "word": "konu",
+            "norm_word": "konu",
+            "start": 598.5,
+            "end": 599.31
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 600.27,
+            "end": 600.78
+        },
+        {
+            "word": "skautbúningi",
+            "norm_word": "skautbúningi",
+            "start": 601.41,
+            "end": 602.79
+        },
+        {
+            "word": "með",
+            "norm_word": "með",
+            "start": 603.6,
+            "end": 603.78
+        },
+        {
+            "word": "slör",
+            "norm_word": "slör",
+            "start": 603.78,
+            "end": 604.41
+        },
+        {
+            "word": "aftur",
+            "norm_word": "aftur",
+            "start": 604.41,
+            "end": 604.83
+        },
+        {
+            "word": "úr",
+            "norm_word": "úr",
+            "start": 604.83,
+            "end": 605.04
+        },
+        {
+            "word": "sér.",
+            "norm_word": "sér",
+            "start": 605.04,
+            "end": 605.43
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 606.93,
+            "end": 607.08
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 607.08,
+            "end": 607.38
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 607.38,
+            "end": 607.53
+        },
+        {
+            "word": "greinilegt",
+            "norm_word": "greinilegt",
+            "start": 607.56,
+            "end": 608.25
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 608.25,
+            "end": 608.4
+        },
+        {
+            "word": "þetta",
+            "norm_word": "þetta",
+            "start": 608.4,
+            "end": 608.82
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 608.82,
+            "end": 609.09
+        },
+        {
+            "word": "verið",
+            "norm_word": "verið",
+            "start": 609.09,
+            "end": 609.54
+        },
+        {
+            "word": "tekin",
+            "norm_word": "tekin",
+            "start": 611.01,
+            "end": 611.43
+        },
+        {
+            "word": "mynd",
+            "norm_word": "mynd",
+            "start": 611.43,
+            "end": 611.82
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 611.82,
+            "end": 612.12
+        },
+        {
+            "word": "drottningu",
+            "norm_word": "drottningu",
+            "start": 612.87,
+            "end": 613.92
+        },
+        {
+            "word": "Péturs",
+            "norm_word": "péturs",
+            "start": 614.25,
+            "end": 614.79
+        },
+        {
+            "word": "mikla",
+            "norm_word": "mikla",
+            "start": 614.79,
+            "end": 615.48
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 616.2,
+            "end": 616.5
+        },
+        {
+            "word": "Frakklandi.",
+            "norm_word": "frakklandi",
+            "start": 616.5,
+            "end": 617.61
+        },
+        {
+            "word": "Þeirra?",
+            "norm_word": "þeirra",
+            "start": 622.71,
+            "end": 623.34
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 624.48,
+            "end": 625.05
+        },
+        {
+            "word": "veit",
+            "norm_word": "veit",
+            "start": 625.05,
+            "end": 625.29
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 625.29,
+            "end": 625.41
+        },
+        {
+            "word": "ekkert.",
+            "norm_word": "ekkert",
+            "start": 625.41,
+            "end": 625.86
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 625.86,
+            "end": 626.01
+        },
+        {
+            "word": "bara.",
+            "norm_word": "bara",
+            "start": 626.01,
+            "end": 626.4
+        },
+        {
+            "word": "Þetta",
+            "norm_word": "þetta",
+            "start": 626.58,
+            "end": 626.76
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 626.76,
+            "end": 626.85
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 626.85,
+            "end": 627.06
+        },
+        {
+            "word": "mynd",
+            "norm_word": "mynd",
+            "start": 627.06,
+            "end": 627.45
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 627.45,
+            "end": 627.6
+        },
+        {
+            "word": "henni",
+            "norm_word": "henni",
+            "start": 627.6,
+            "end": 628.14
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 628.92,
+            "end": 629.34
+        },
+        {
+            "word": "skautbúningi",
+            "norm_word": "skautbúningi",
+            "start": 629.7,
+            "end": 630.93
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 631.29,
+            "end": 631.41
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 631.41,
+            "end": 631.59
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 631.59,
+            "end": 631.74
+        },
+        {
+            "word": "nákvæmlega",
+            "norm_word": "nákvæmlega",
+            "start": 631.74,
+            "end": 632.31
+        },
+        {
+            "word": "eins",
+            "norm_word": "eins",
+            "start": 632.31,
+            "end": 632.52
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 632.52,
+            "end": 632.73
+        },
+        {
+            "word": "[HIK:þess]",
+            "norm_word": "",
+            "start": 634.32,
+            "end": 634.62
+        },
+        {
+            "word": "þessir",
+            "norm_word": "þessir",
+            "start": 634.71,
+            "end": 635.04
+        },
+        {
+            "word": "skautbúningar",
+            "norm_word": "skautbúningar",
+            "start": 635.04,
+            "end": 636.0
+        },
+        {
+            "word": "sem",
+            "norm_word": "sem",
+            "start": 636.0,
+            "end": 636.24
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 636.24,
+            "end": 636.6
+        },
+        {
+            "word": "fengum",
+            "norm_word": "fengum",
+            "start": 636.9,
+            "end": 637.47
+        },
+        {
+            "word": "frá",
+            "norm_word": "frá",
+            "start": 637.47,
+            "end": 637.77
+        },
+        {
+            "word": "Frakklandi",
+            "norm_word": "frakklandi",
+            "start": 637.77,
+            "end": 638.7
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 639.06,
+            "end": 639.27
+        },
+        {
+            "word": "Íslands.",
+            "norm_word": "íslands",
+            "start": 639.27,
+            "end": 640.2
+        },
+        {
+            "word": "Þannig",
+            "norm_word": "þannig",
+            "start": 642.3,
+            "end": 642.81
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 642.81,
+            "end": 643.08
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 643.53,
+            "end": 643.71
+        },
+        {
+            "word": "vildi",
+            "norm_word": "vildi",
+            "start": 643.71,
+            "end": 644.13
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 644.13,
+            "end": 644.34
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 644.37,
+            "end": 644.79
+        },
+        {
+            "word": "að,",
+            "norm_word": "að",
+            "start": 644.79,
+            "end": 645.06
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 645.63,
+            "end": 646.08
+        },
+        {
+            "word": "náttúrlega",
+            "norm_word": "náttúrlega",
+            "start": 646.98,
+            "end": 647.4
+        },
+        {
+            "word": "konan",
+            "norm_word": "konan",
+            "start": 647.43,
+            "end": 647.94
+        },
+        {
+            "word": "mín",
+            "norm_word": "mín",
+            "start": 647.94,
+            "end": 648.33
+        },
+        {
+            "word": "kannaðist",
+            "norm_word": "kannaðist",
+            "start": 648.6,
+            "end": 649.17
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 649.17,
+            "end": 649.32
+        },
+        {
+            "word": "þennan",
+            "norm_word": "þennan",
+            "start": 649.32,
+            "end": 649.68
+        },
+        {
+            "word": "skautbúning.",
+            "norm_word": "skautbúning",
+            "start": 649.68,
+            "end": 650.79
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 652.41,
+            "end": 652.77
+        },
+        {
+            "word": "það",
+            "norm_word": "það",
+            "start": 653.04,
+            "end": 653.37
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 653.37,
+            "end": 653.49
+        },
+        {
+            "word": "greinilegt",
+            "norm_word": "greinilegt",
+            "start": 653.49,
+            "end": 654.12
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 654.12,
+            "end": 654.36
+        },
+        {
+            "word": "Pétur",
+            "norm_word": "pétur",
+            "start": 654.63,
+            "end": 655.05
+        },
+        {
+            "word": "mikli",
+            "norm_word": "mikli",
+            "start": 655.05,
+            "end": 655.5
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 655.5,
+            "end": 655.8
+        },
+        {
+            "word": "gifst",
+            "norm_word": "gifst",
+            "start": 655.83,
+            "end": 656.37
+        },
+        {
+            "word": "henni",
+            "norm_word": "henni",
+            "start": 656.37,
+            "end": 656.7
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 657.0,
+            "end": 657.3
+        },
+        {
+            "word": "Frakklandi.",
+            "norm_word": "frakklandi",
+            "start": 657.3,
+            "end": 658.29
+        },
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 663.45,
+            "end": 663.93
+        },
+        {
+            "word": "Það",
+            "norm_word": "það",
+            "start": 668.49,
+            "end": 668.67
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 668.67,
+            "end": 668.79
+        },
+        {
+            "word": "konan",
+            "norm_word": "konan",
+            "start": 668.82,
+            "end": 669.45
+        },
+        {
+            "word": "hans.",
+            "norm_word": "hans",
+            "start": 669.45,
+            "end": 669.66
+        },
+        {
+            "word": "Sem",
+            "norm_word": "sem",
+            "start": 674.07,
+            "end": 674.28
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 674.28,
+            "end": 674.55
+        },
+        {
+            "word": "gifst.",
+            "norm_word": "gifst",
+            "start": 674.55,
+            "end": 675.18
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 675.54,
+            "end": 675.72
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 675.72,
+            "end": 676.26
+        },
+        {
+            "word": "dálítið",
+            "norm_word": "dálítið",
+            "start": 676.77,
+            "end": 677.25
+        },
+        {
+            "word": "seinna",
+            "norm_word": "seinna",
+            "start": 677.28,
+            "end": 677.97
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 678.84,
+            "end": 679.05
+        },
+        {
+            "word": "vorum",
+            "norm_word": "vorum",
+            "start": 679.05,
+            "end": 679.32
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 679.32,
+            "end": 679.41
+        },
+        {
+            "word": "komin",
+            "norm_word": "komin",
+            "start": 679.41,
+            "end": 679.65
+        },
+        {
+            "word": "dálítið",
+            "norm_word": "dálítið",
+            "start": 679.65,
+            "end": 679.98
+        },
+        {
+            "word": "langt",
+            "norm_word": "langt",
+            "start": 680.01,
+            "end": 680.64
+        },
+        {
+            "word": "inn",
+            "norm_word": "inn",
+            "start": 681.0,
+            "end": 681.39
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 681.39,
+            "end": 681.63
+        },
+        {
+            "word": "Pétursborg.",
+            "norm_word": "pétursborg",
+            "start": 682.47,
+            "end": 683.55
+        },
+        {
+            "word": "Vorum",
+            "norm_word": "vorum",
+            "start": 685.5,
+            "end": 685.92
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 685.92,
+            "end": 686.07
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 686.07,
+            "end": 686.16
+        },
+        {
+            "word": "fylgja",
+            "norm_word": "fylgja",
+            "start": 686.16,
+            "end": 686.64
+        },
+        {
+            "word": "fólki.",
+            "norm_word": "fólki",
+            "start": 686.64,
+            "end": 687.51
+        },
+        {
+            "word": "En",
+            "norm_word": "en",
+            "start": 688.71,
+            "end": 688.95
+        },
+        {
+            "word": "svo",
+            "norm_word": "svo",
+            "start": 688.95,
+            "end": 689.55
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 690.15,
+            "end": 690.51
+        },
+        {
+            "word": "ruglaðist",
+            "norm_word": "ruglaðist",
+            "start": 691.95,
+            "end": 692.94
+        },
+        {
+            "word": "eða",
+            "norm_word": "eða",
+            "start": 693.33,
+            "end": 693.48
+        },
+        {
+            "word": "villtist",
+            "norm_word": "villtist",
+            "start": 693.48,
+            "end": 694.08
+        },
+        {
+            "word": "hann",
+            "norm_word": "hann",
+            "start": 694.08,
+            "end": 694.29
+        },
+        {
+            "word": "nú",
+            "norm_word": "nú",
+            "start": 694.29,
+            "end": 694.41
+        },
+        {
+            "word": "aðeins,",
+            "norm_word": "aðeins",
+            "start": 694.41,
+            "end": 694.74
+        },
+        {
+            "word": "en,",
+            "norm_word": "en",
+            "start": 695.58,
+            "end": 695.88
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 696.12,
+            "end": 696.36
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 696.36,
+            "end": 696.63
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 696.63,
+            "end": 696.93
+        },
+        {
+            "word": "út",
+            "norm_word": "út",
+            "start": 696.93,
+            "end": 697.23
+        },
+        {
+            "word": "úr",
+            "norm_word": "úr",
+            "start": 697.23,
+            "end": 697.53
+        },
+        {
+            "word": "rútunni,",
+            "norm_word": "rútunni",
+            "start": 698.52,
+            "end": 700.17
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 701.34,
+            "end": 701.85
+        },
+        {
+            "word": "sáum",
+            "norm_word": "sáum",
+            "start": 702.12,
+            "end": 702.63
+        },
+        {
+            "word": "þá",
+            "norm_word": "þá",
+            "start": 702.63,
+            "end": 703.02
+        },
+        {
+            "word": "eldgamla",
+            "norm_word": "eldgamla",
+            "start": 703.29,
+            "end": 704.19
+        },
+        {
+            "word": "konu",
+            "norm_word": "konu",
+            "start": 704.22,
+            "end": 704.85
+        },
+        {
+            "word": "vera",
+            "norm_word": "vera",
+            "start": 705.42,
+            "end": 705.81
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 705.81,
+            "end": 705.93
+        },
+        {
+            "word": "sópa",
+            "norm_word": "sópa",
+            "start": 705.96,
+            "end": 706.62
+        },
+        {
+            "word": "út",
+            "norm_word": "út",
+            "start": 706.62,
+            "end": 706.95
+        },
+        {
+            "word": "úr",
+            "norm_word": "úr",
+            "start": 706.95,
+            "end": 707.13
+        },
+        {
+            "word": "fjölbýlishúsi.",
+            "norm_word": "fjölbýlishúsi",
+            "start": 707.13,
+            "end": 708.51
+        },
+        {
+            "word": "Var",
+            "norm_word": "var",
+            "start": 709.62,
+            "end": 709.8
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 709.8,
+            "end": 709.86
+        },
+        {
+            "word": "sópa.",
+            "norm_word": "sópa",
+            "start": 709.92,
+            "end": 710.79
+        },
+        {
+            "word": "Bara",
+            "norm_word": "bara",
+            "start": 712.92,
+            "end": 713.28
+        },
+        {
+            "word": "rykið",
+            "norm_word": "rykið",
+            "start": 713.28,
+            "end": 713.91
+        },
+        {
+            "word": "úr",
+            "norm_word": "úr",
+            "start": 713.94,
+            "end": 714.15
+        },
+        {
+            "word": "dyragættinni.",
+            "norm_word": "dyragættinni",
+            "start": 714.15,
+            "end": 715.35
+        },
+        {
+            "word": "Og.",
+            "norm_word": "og",
+            "start": 717.3,
+            "end": 717.75
+        },
+        {
+            "word": "Ég.",
+            "norm_word": "ég",
+            "start": 718.8,
+            "end": 719.25
+        },
+        {
+            "word": "Við",
+            "norm_word": "við",
+            "start": 719.88,
+            "end": 720.45
+        },
+        {
+            "word": "fórum",
+            "norm_word": "fórum",
+            "start": 720.45,
+            "end": 720.78
+        },
+        {
+            "word": "til",
+            "norm_word": "til",
+            "start": 720.78,
+            "end": 721.11
+        },
+        {
+            "word": "hennar,",
+            "norm_word": "hennar",
+            "start": 721.11,
+            "end": 721.8
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 722.76,
+            "end": 722.88
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 722.88,
+            "end": 723.12
+        },
+        {
+            "word": "náttúrulega",
+            "norm_word": "náttúrulega",
+            "start": 723.12,
+            "end": 723.48
+        },
+        {
+            "word": "byrjaði",
+            "norm_word": "byrjaði",
+            "start": 723.51,
+            "end": 724.11
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 724.11,
+            "end": 724.32
+        },
+        {
+            "word": "tala",
+            "norm_word": "tala",
+            "start": 725.76,
+            "end": 726.21
+        },
+        {
+            "word": "ensku",
+            "norm_word": "ensku",
+            "start": 726.21,
+            "end": 727.08
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 727.08,
+            "end": 727.32
+        },
+        {
+            "word": "hana.",
+            "norm_word": "hana",
+            "start": 727.32,
+            "end": 727.83
+        },
+        {
+            "word": "Ha?",
+            "norm_word": "ha",
+            "start": 729.96,
+            "end": 730.47
+        },
+        {
+            "word": "Þarna",
+            "norm_word": "þarna",
+            "start": 731.97,
+            "end": 732.36
+        },
+        {
+            "word": "í.",
+            "norm_word": "í",
+            "start": 732.36,
+            "end": 732.69
+        },
+        {
+            "word": "Þessi",
+            "norm_word": "þessi",
+            "start": 732.69,
+            "end": 732.99
+        },
+        {
+            "word": "kona",
+            "norm_word": "kona",
+            "start": 733.02,
+            "end": 733.5
+        },
+        {
+            "word": "sem",
+            "norm_word": "sem",
+            "start": 733.5,
+            "end": 733.74
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 733.74,
+            "end": 733.95
+        },
+        {
+            "word": "þarna",
+            "norm_word": "þarna",
+            "start": 733.95,
+            "end": 734.28
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 734.58,
+            "end": 734.73
+        },
+        {
+            "word": "Rússland",
+            "norm_word": "rússland",
+            "start": 734.73,
+            "end": 735.54
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 735.6,
+            "end": 735.78
+        },
+        {
+            "word": "Pétursborg.",
+            "norm_word": "pétursborg",
+            "start": 735.78,
+            "end": 736.86
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 740.76,
+            "end": 740.97
+        },
+        {
+            "word": "bara",
+            "norm_word": "bara",
+            "start": 740.97,
+            "end": 741.18
+        },
+        {
+            "word": "prófaði",
+            "norm_word": "prófaði",
+            "start": 741.21,
+            "end": 741.84
+        },
+        {
+            "word": "það,",
+            "norm_word": "það",
+            "start": 741.84,
+            "end": 742.08
+        },
+        {
+            "word": "hún",
+            "norm_word": "hún",
+            "start": 742.08,
+            "end": 742.32
+        },
+        {
+            "word": "skildi",
+            "norm_word": "skildi",
+            "start": 742.32,
+            "end": 742.77
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 742.77,
+            "end": 743.01
+        },
+        {
+            "word": "orð.",
+            "norm_word": "orð",
+            "start": 743.01,
+            "end": 743.4
+        },
+        {
+            "word": "Svo",
+            "norm_word": "svo",
+            "start": 744.48,
+            "end": 744.84
+        },
+        {
+            "word": "prófaði",
+            "norm_word": "prófaði",
+            "start": 745.17,
+            "end": 745.68
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 745.68,
+            "end": 745.83
+        },
+        {
+            "word": "sænsku.",
+            "norm_word": "sænsku",
+            "start": 745.83,
+            "end": 746.73
+        },
+        {
+            "word": "Og",
+            "norm_word": "og",
+            "start": 747.3,
+            "end": 747.63
+        },
+        {
+            "word": "hún",
+            "norm_word": "hún",
+            "start": 747.63,
+            "end": 747.84
+        },
+        {
+            "word": "skildi",
+            "norm_word": "skildi",
+            "start": 747.84,
+            "end": 748.23
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 748.23,
+            "end": 748.44
+        },
+        {
+            "word": "orð",
+            "norm_word": "orð",
+            "start": 748.44,
+            "end": 748.71
+        },
+        {
+            "word": "af",
+            "norm_word": "af",
+            "start": 748.71,
+            "end": 748.86
+        },
+        {
+            "word": "því.",
+            "norm_word": "því",
+            "start": 748.86,
+            "end": 749.34
+        },
+        {
+            "word": "Þá",
+            "norm_word": "þá",
+            "start": 749.91,
+            "end": 750.15
+        },
+        {
+            "word": "talaði",
+            "norm_word": "talaði",
+            "start": 750.15,
+            "end": 750.63
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 750.63,
+            "end": 750.81
+        },
+        {
+            "word": "frönsku",
+            "norm_word": "frönsku",
+            "start": 750.81,
+            "end": 751.38
+        },
+        {
+            "word": "eins",
+            "norm_word": "eins",
+            "start": 751.38,
+            "end": 751.56
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 751.56,
+            "end": 751.62
+        },
+        {
+            "word": "ég",
+            "norm_word": "ég",
+            "start": 751.62,
+            "end": 751.71
+        },
+        {
+            "word": "vanur",
+            "norm_word": "vanur",
+            "start": 751.83,
+            "end": 752.28
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 752.28,
+            "end": 752.4
+        },
+        {
+            "word": "gera.",
+            "norm_word": "gera",
+            "start": 752.4,
+            "end": 752.85
+        },
+        {
+            "word": "Þá",
+            "norm_word": "þá",
+            "start": 754.11,
+            "end": 754.41
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 754.41,
+            "end": 754.62
+        },
+        {
+            "word": "hún",
+            "norm_word": "hún",
+            "start": 754.62,
+            "end": 754.8
+        },
+        {
+            "word": "fljúgandi",
+            "norm_word": "fljúgandi",
+            "start": 754.8,
+            "end": 755.64
+        },
+        {
+            "word": "mælsk",
+            "norm_word": "mælsk",
+            "start": 755.64,
+            "end": 756.12
+        },
+        {
+            "word": "á",
+            "norm_word": "á",
+            "start": 756.12,
+            "end": 756.27
+        },
+        {
+            "word": "frönsku?",
+            "norm_word": "frönsku",
+            "start": 756.3,
+            "end": 757.17
+        },
+        {
+            "word": "Þá",
+            "norm_word": "þá",
+            "start": 758.46,
+            "end": 758.82
+        },
+        {
+            "word": "hafði",
+            "norm_word": "hafði",
+            "start": 758.82,
+            "end": 759.09
+        },
+        {
+            "word": "þetta",
+            "norm_word": "þetta",
+            "start": 759.09,
+            "end": 759.6
+        },
+        {
+            "word": "verið",
+            "norm_word": "verið",
+            "start": 759.6,
+            "end": 759.9
+        },
+        {
+            "word": "vinnukona",
+            "norm_word": "vinnukona",
+            "start": 759.93,
+            "end": 760.98
+        },
+        {
+            "word": "Péturs",
+            "norm_word": "péturs",
+            "start": 761.46,
+            "end": 762.06
+        },
+        {
+            "word": "mikla,",
+            "norm_word": "mikla",
+            "start": 762.06,
+            "end": 762.72
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 763.65,
+            "end": 763.95
+        },
+        {
+            "word": "þeirra,",
+            "norm_word": "þeirra",
+            "start": 763.98,
+            "end": 764.49
+        },
+        {
+            "word": "og",
+            "norm_word": "og",
+            "start": 764.52,
+            "end": 764.73
+        },
+        {
+            "word": "drottningarinnar",
+            "norm_word": "drottningarinnar",
+            "start": 764.73,
+            "end": 765.81
+        },
+        {
+            "word": "þegar",
+            "norm_word": "þegar",
+            "start": 766.32,
+            "end": 766.65
+        },
+        {
+            "word": "þau",
+            "norm_word": "þau",
+            "start": 766.65,
+            "end": 766.8
+        },
+        {
+            "word": "voru",
+            "norm_word": "voru",
+            "start": 766.8,
+            "end": 767.01
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 767.01,
+            "end": 767.07
+        },
+        {
+            "word": "gifa",
+            "norm_word": "gifa",
+            "start": 767.07,
+            "end": 767.55
+        },
+        {
+            "word": "sig",
+            "norm_word": "sig",
+            "start": 767.55,
+            "end": 767.73
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 767.73,
+            "end": 767.94
+        },
+        {
+            "word": "Frakklandi.",
+            "norm_word": "frakklandi",
+            "start": 767.97,
+            "end": 768.81
+        },
+        {
+            "word": "Svona",
+            "norm_word": "svona",
+            "start": 772.74,
+            "end": 773.07
+        },
+        {
+            "word": "var",
+            "norm_word": "var",
+            "start": 773.07,
+            "end": 773.28
+        },
+        {
+            "word": "þetta",
+            "norm_word": "þetta",
+            "start": 773.28,
+            "end": 773.55
+        },
+        {
+            "word": "bara.",
+            "norm_word": "bara",
+            "start": 773.55,
+            "end": 774.0
+        },
+        {
+            "word": "Já,",
+            "norm_word": "já",
+            "start": 775.29,
+            "end": 775.56
+        },
+        {
+            "word": "já,",
+            "norm_word": "já",
+            "start": 775.56,
+            "end": 775.74
+        },
+        {
+            "word": "jæja.",
+            "norm_word": "jæja",
+            "start": 775.74,
+            "end": 776.28
+        },
+        {
+            "word": "Allt",
+            "norm_word": "allt",
+            "start": 776.73,
+            "end": 777.0
+        },
+        {
+            "word": "í",
+            "norm_word": "í",
+            "start": 777.0,
+            "end": 777.09
+        },
+        {
+            "word": "lagi.",
+            "norm_word": "lagi",
+            "start": 777.09,
+            "end": 777.45
+        },
+        {
+            "word": "Ég",
+            "norm_word": "ég",
+            "start": 778.32,
+            "end": 778.5
+        },
+        {
+            "word": "nenni",
+            "norm_word": "nenni",
+            "start": 778.5,
+            "end": 778.77
+        },
+        {
+            "word": "ekki",
+            "norm_word": "ekki",
+            "start": 778.77,
+            "end": 778.92
+        },
+        {
+            "word": "að",
+            "norm_word": "að",
+            "start": 778.92,
+            "end": 778.98
+        },
+        {
+            "word": "tala",
+            "norm_word": "tala",
+            "start": 778.98,
+            "end": 779.19
+        },
+        {
+            "word": "meira",
+            "norm_word": "meira",
+            "start": 779.22,
+            "end": 779.49
+        },
+        {
+            "word": "við",
+            "norm_word": "við",
+            "start": 779.49,
+            "end": 779.67
+        },
+        {
+            "word": "þig.",
+            "norm_word": "þig",
+            "start": 779.67,
+            "end": 779.91
+        }
+    ]
+}

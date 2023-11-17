@@ -1,0 +1,1 @@
+[HIK:a] appið, add on-ið telur vanalega ekki sockets.

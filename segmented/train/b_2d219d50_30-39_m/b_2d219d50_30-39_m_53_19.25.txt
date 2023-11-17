@@ -1,0 +1,1 @@
+[HIK:heldurhún] Heldurðu að þau myndu nota of mikið ping, það er að segja þú veist, ping er basically bara til að establish-a það hvort það sé connection. Reyndar eitt annað og, og testa tenginguna.

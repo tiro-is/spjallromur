@@ -1,0 +1,1 @@
+en já já við erum með sem sagt íslensku og færeysku tól sem við eigum dockerizea og búa til api þannig að þarna þetta verði aðgengilegra fyrir svona almenning og fyrir fyrirtæki

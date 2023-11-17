@@ -1,0 +1,1 @@
+Þá bara var ég bara með forrit, gaf bara einhverja IP tölu og gerði bara tóma hérna, request-u á bara einhverjar tugþúsundir porta á einni IP tölu og ef það kom eitthvað ákveðið svar til baka.

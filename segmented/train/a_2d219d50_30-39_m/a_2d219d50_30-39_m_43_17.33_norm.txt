@@ -1,0 +1,1 @@
+en náttúrlega á flestum routerum eru varnir gegn svona skönnum ef það kemur ef það koma þúsund requesta hérna frá sömu ip tölunni í gegnum router þá blokkar hann það og ef hann blokkar það ekki þá blokkar eldveggurinn í tölvunni þinni það
