@@ -134,7 +134,7 @@ def convert():
     os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
     for folder in glob(f"{ROOT}/full_conversations/*"):
-        print(folder)
+        print(f"Preparing '{folder}'")
         spk_a_trans = glob(f"{folder}/a*.json")[0]
         spk_b_trans = glob(f"{folder}/b*.json")[0]
         spk_a_audio = glob(f"{folder}/a*.wav")[0]
@@ -145,12 +145,19 @@ def convert():
         out_dir = os.path.join(OUTPUT_ROOT, folder_base)
         os.makedirs(out_dir, exist_ok=True)
 
+        merged_json = os.path.join(out_dir, f"{new_filename}.json")
+        merged_rttm = os.path.join(out_dir, f"{new_filename}.rttm")
+
+        if any([os.path.exists(merged_json), os.path.exists(merged_rttm)]):
+            print(f"{merged_json} or {merged_rttm} exist, wont overwrite.")
+            continue
         data = merge_transcripts(
             spk_a_trans,
             spk_b_trans,
-            os.path.join(out_dir, f"{new_filename}.json"),
+            merged_json,
         )
-        convert2rttm(data, os.path.join(out_dir, f"{new_filename}.rttm"), new_filename)
+
+        convert2rttm(data, merged_rttm, new_filename)
         merge_audio_files(
             spk_a_audio, spk_b_audio, os.path.join(out_dir, f"{new_filename}.wav")
         )
