@@ -37,6 +37,10 @@ whisper_model = download_asr_model()
 
 
 # ########################################################################
+# Finetune the model using the Spjallrómur segments
+
+
+# ########################################################################
 # # Transcribe the Dev and Test splits using Faster-Whisper
 from src.transcribe import transcribe_file, transcribe_file_parallel
 
