@@ -8,11 +8,11 @@
 
 ########################################################################
 
-import re
-import os
-from glob import glob
-import subprocess
 import json
+import os
+import re
+import subprocess
+from glob import glob
 from typing import Tuple
 
 
@@ -339,14 +339,13 @@ def run_segmentation(
         print(f"Remving segments that are less than {min_duration} seconds.")
 
         segments = [seg for seg in segments if seg["duration"] >= min_duration]
+        print("Remvoing segments that only have <unk> or [hik: ...].")
+        segments = [seg for seg in segments if segment["text_norm"].strip().rstrip()]
+
         out_folder = os.path.join(output_folder, fileId2split[file_id], file_id)
         os.makedirs(out_folder, exist_ok=True)
         print(f"Saving the segments to {out_folder}")
-
         for idx, segment in enumerate(segments):
-            if not segment["text_norm"].strip().rstrip():
-                print("Segment only has <unk> or [hik: ...], ignoring.")
-                continue
             filename = f"{file_id}_{str(idx)}_{str(segment['duration'])}"
 
             out_f = os.path.join(out_folder, filename)

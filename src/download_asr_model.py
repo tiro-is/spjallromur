@@ -14,8 +14,8 @@
 
 import os
 
-HF_ASR_MODEL = "https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-30k-steps-1000h-ct2"
-
+# HF_ASR_MODEL = "https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-30k-steps-1000h-ct2"
+HF_ASR_MODEL = "https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-30k-steps-1000h"
 ########################################################################
 
 
@@ -25,10 +25,7 @@ def download_asr_model():
     PATH_ASR_MODEL = os.path.join(CURRENT_PATH, NAME_ASR_MODEL)
     if not os.path.exists(PATH_ASR_MODEL):
         os.system("git clone " + HF_ASR_MODEL)
-    # ENDIF
     return PATH_ASR_MODEL
 
-
-# ENDDEF
 
 ########################################################################

@@ -12,10 +12,10 @@
 
 ########################################################################
 
-from glob import glob
-import os
 import json
+import os
 import subprocess
+from glob import glob
 
 # Define paths
 ROOT = "."

@@ -13,12 +13,12 @@
 ########################################################################
 
 
-from pyannote.audio import Pipeline
-
-from glob import glob
 import os
-import torch
+from glob import glob
 
+import torch
+from pyannote.audio import Pipeline
+from tqdm import tqdm
 
 AUDIO_DATA_ROOT = "combined"
 DIR_RESULTS = "results/diarize/rttm"
@@ -51,7 +51,7 @@ def diarize(authentication_token: str, device: str = "cpu"):
     rttm_reference_scp = []
     rttm_hypothesis_scp = []
 
-    for folder in glob(f"{AUDIO_DATA_ROOT}/*"):
+    for folder in tqdm(glob(f"{AUDIO_DATA_ROOT}/*")):
         folder_name = os.path.basename(folder)
         audio_file = glob(f"{folder}/*.wav")[0]
         diarization = pipeline(audio_file, num_speakers=2)

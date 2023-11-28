@@ -24,13 +24,14 @@ def check_dependencies():
     ########################################################################
     # Imports
 
-    import sys
-    import re
-    import os
-    import requests
-    import shutil
-    import wave
     import json
+    import os
+    import re
+    import shutil
+    import sys
+    import wave
+
+    import requests
     import tqdm
 
     ########################################################################

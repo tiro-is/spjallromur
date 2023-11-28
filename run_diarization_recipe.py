@@ -37,7 +37,6 @@ diarize(authentication_token=token, device=device)
 # install location
 import subprocess
 
-
 path2dscore = None
 if path2dscore:
     subprocess.call(
@@ -49,5 +48,5 @@ if path2dscore:
     )
 else:
     print(
-        "Please install 'https://github.com/nryant/dscore' and proved the path to the tool."
+        "Please install 'https://github.com/nryant/dscore' and provied the path to the tool."
     )

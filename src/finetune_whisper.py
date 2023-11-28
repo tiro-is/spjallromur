@@ -1,53 +1,46 @@
-from transformers import WhisperFeatureExtractor
-from transformers import WhisperTokenizer
-from transformers import WhisperProcessor
-
-from datasets import Audio
-import torch
-from datasets import Dataset, DatasetDict
-
+import subprocess
 from dataclasses import dataclass
 from typing import Any, Dict, List, Union
+
 import evaluate
+import torch
+from datasets import Audio, Dataset, IterableDatasetDict
+from transformers import (Seq2SeqTrainer, Seq2SeqTrainingArguments,
+                          WhisperFeatureExtractor,
+                          WhisperForConditionalGeneration, WhisperProcessor,
+                          WhisperTokenizer)
+
+
+def convert(model_dir: str) -> str:
+    output = f"{model_dir}_ct2"
+    command = [
+        "ct2-transformers-converter",
+        "--model",
+        model_dir,
+        "--output_dir",
+        output,
+        "--copy_files",
+        "tokenizer.json",
+        "preprocessor_config.json",
+        "--quantization",
+        "float16",
+    ]
+
+    try:
+        subprocess.run(command, check=True)
+        print(f"Successfully converted the model: {output}")
+    except subprocess.CalledProcessError as e:
+        raise (f"An error occurred: {e}")
+    return output
 
 
 def load_data(file_path):
     data = []
     with open(file_path, encoding="utf-8") as f:
         for line in f:
-            audio_path, transcript = line.strip().split("\t")
+            audio_path, transcript = line.rstrip().strip().split("\t")
             data.append({"audio": audio_path, "transcript": transcript})
     return data
-
-
-def prepare_dataset(batch):
-    # load and resample audio data from 48 to 16kHz
-    audio = batch["audio"]
-
-    # compute log-Mel input features from input audio array
-    batch["input_features"] = feature_extractor(
-        audio["array"], sampling_rate=audio["sampling_rate"]
-    ).input_features[0]
-
-    # encode target text to label ids
-    batch["labels"] = tokenizer(batch["sentence"]).input_ids
-    return batch
-
-
-def compute_metrics(pred):
-    pred_ids = pred.predictions
-    label_ids = pred.label_ids
-
-    # replace -100 with the pad_token_id
-    label_ids[label_ids == -100] = tokenizer.pad_token_id
-
-    # we do not want to group tokens when computing the metrics
-    pred_str = tokenizer.batch_decode(pred_ids, skip_special_tokens=True)
-    label_str = tokenizer.batch_decode(label_ids, skip_special_tokens=True)
-
-    wer = 100 * metric.compute(predictions=pred_str, references=label_str)
-
-    return {"wer": wer}
 
 
 @dataclass
@@ -86,20 +79,48 @@ class DataCollatorSpeechSeq2SeqWithPadding:
         return batch
 
 
-tokenizer = WhisperTokenizer.from_pretrained(
-    "openai/whisper-small", language="Hindi", task="transcribe"
-)
-feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-small")
+def finetune(
+    whisper_model: str,
+    dev_trans: str = "segmented/dev.trans",
+    test_trans: str = "segmented/train.trans",
+    train_trans: str = "segmented/test.trans",
+    output_dir: str = "./whisper-large-icelandic-30k-steps-1000h-spjallromur-test",
+):
+    def prepare_dataset(batch):
+        audio = batch["audio"]
 
+        # compute log-Mel input features from input audio array
+        batch["input_features"] = feature_extractor(
+            audio["array"], sampling_rate=audio["sampling_rate"]
+        ).input_features[0]
 
-def finetune():
-    # Load data from files
-    train_data = load_data("segmented/train.trans")
-    dev_data = load_data("segmented/dev.trans")
-    test_data = load_data("segmented/test.trans")
+        # encode target text to label ids
+        batch["labels"] = tokenizer(batch["transcript"]).input_ids
+        return batch
+
+    def compute_metrics(pred):
+        pred_ids = pred.predictions
+        label_ids = pred.label_ids
+
+        # replace -100 with the pad_token_id
+        label_ids[label_ids == -100] = tokenizer.pad_token_id
+
+        # we do not want to group tokens when computing the metrics
+        pred_str = tokenizer.batch_decode(pred_ids, skip_special_tokens=True)
+        label_str = tokenizer.batch_decode(label_ids, skip_special_tokens=True)
+
+        wer = 100 * metric.compute(predictions=pred_str, references=label_str)
+
+        return {"wer": wer}
+
+    train_data = load_data(
+        train_trans,
+    )[0:10]
+    dev_data = load_data(dev_trans)[0:10]
+    test_data = load_data(test_trans)[0:10]
 
     # Create Hugging Face datasets
-    spjallromur = DatasetDict(
+    spjallromur = IterableDatasetDict(
         {
             "train": Dataset.from_dict(
                 {
@@ -124,55 +145,57 @@ def finetune():
 
     spjallromur = spjallromur.cast_column("audio", Audio(sampling_rate=16000))
 
-    spjallromur = spjallromur.map(prepare_dataset, num_proc=2)
+    feature_extractor = WhisperFeatureExtractor.from_pretrained(whisper_model)
+    tokenizer = WhisperTokenizer.from_pretrained(
+        whisper_model, language="Icelandic", task="transcribe"
+    )
+    spjallromur = spjallromur.map(prepare_dataset).with_format("torch")
 
     processor = WhisperProcessor.from_pretrained(
-        "openai/whisper-small", language="Hindi", task="transcribe"
+        whisper_model, language="Icelandic", task="transcribe"
     )
     metric = evaluate.load("wer")
 
     data_collator = DataCollatorSpeechSeq2SeqWithPadding(processor=processor)
 
-    from transformers import Seq2SeqTrainingArguments
-
     training_args = Seq2SeqTrainingArguments(
-        output_dir="./whisper-small-hi",  # change to a repo name of your choice
-        per_device_train_batch_size=16,
-        gradient_accumulation_steps=1,  # increase by 2x for every 2x decrease in batch size
+        output_dir=output_dir,  # change to a repo name of your choice
+        per_device_train_batch_size=8,
+        gradient_accumulation_steps=2,  # increase by 2x for every 2x decrease in batch size
         learning_rate=1e-5,
         warmup_steps=500,
-        max_steps=4000,
+        max_steps=1000,
         gradient_checkpointing=True,
         fp16=True,
         evaluation_strategy="steps",
         per_device_eval_batch_size=8,
         predict_with_generate=True,
         generation_max_length=225,
-        save_steps=1000,
-        eval_steps=1000,
+        save_steps=500,
+        eval_steps=500,
         logging_steps=25,
         report_to=["tensorboard"],
         load_best_model_at_end=True,
         metric_for_best_model="wer",
         greater_is_better=False,
-        push_to_hub=True,
+        push_to_hub=False,
     )
 
-    from transformers import Seq2SeqTrainer
+    model = WhisperForConditionalGeneration.from_pretrained(whisper_model)
+    model.config.forced_decoder_ids = None
+    model.config.suppress_tokens = []
+    model.config.use_cache = False
 
     trainer = Seq2SeqTrainer(
         args=training_args,
         model=model,
-        train_dataset=common_voice["train"],
-        eval_dataset=common_voice["test"],
+        train_dataset=spjallromur["train"],
+        eval_dataset=spjallromur["dev"],  # evaluation dataset
         data_collator=data_collator,
         compute_metrics=compute_metrics,
         tokenizer=processor.feature_extractor,
+        callbacks=None,
     )
 
     processor.save_pretrained(training_args.output_dir)
     trainer.train()
-
-
-if __name__ == "__main__":
-    finetune()
