@@ -126,9 +126,9 @@ def finetune(
 
     train_data = load_data(
         train_trans,
-    )[0:10]
-    dev_data = load_data(dev_trans)[0:10]
-    test_data = load_data(test_trans)[0:10]
+    )
+    dev_data = load_data(dev_trans)
+    test_data = load_data(test_trans)
 
     # Create Hugging Face datasets
     spjallromur = IterableDatasetDict(
