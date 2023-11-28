@@ -33,6 +33,7 @@ print(
     "(2 of 4) Checking dependencies and downloading the ASR model from Hugging Face ..."
 )
 check_dependencies()
+# whisper_model = "openai/whisper-medium"  # The large model requires alot of GPU memmory to train, one might what to use the medium model instead.
 whisper_model = download_asr_model()
 
 
@@ -43,7 +44,7 @@ from src.finetune_whisper import finetune
 dev_trans = "segmented/dev.trans"
 test_trans = "segmented/train.trans"
 train_trans = "segmented/test.trans"
-whisper_model = "openai/whisper-medium"
+
 output_dir = "./whisper-large-icelandic-30k-steps-1000h-spjallromur"
 finetune(
     whisper_model=whisper_model,
