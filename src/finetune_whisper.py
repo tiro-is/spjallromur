@@ -5,14 +5,25 @@ from typing import Any, Dict, List, Union
 import evaluate
 import torch
 from datasets import Audio, Dataset, IterableDatasetDict
-from transformers import (Seq2SeqTrainer, Seq2SeqTrainingArguments,
-                          WhisperFeatureExtractor,
-                          WhisperForConditionalGeneration, WhisperProcessor,
-                          WhisperTokenizer)
+from transformers import (
+    Seq2SeqTrainer,
+    Seq2SeqTrainingArguments,
+    WhisperFeatureExtractor,
+    WhisperForConditionalGeneration,
+    WhisperProcessor,
+    WhisperTokenizer,
+)
+import os
 
 
 def convert(model_dir: str) -> str:
     output = f"{model_dir}_ct2"
+    for f in ["config.json", "model.safetensors"]:
+        if not os.path.exists(os.path.join(model_dir + f"/{f}")):
+            raise ValueError(
+                f"File {f} does not exist in {model_dir}. Create a symlink from the best checkpoint."
+            )
+
     command = [
         "ct2-transformers-converter",
         "--model",
@@ -20,7 +31,7 @@ def convert(model_dir: str) -> str:
         "--output_dir",
         output,
         "--copy_files",
-        "tokenizer.json",
+        "tokenizer_config.json",
         "preprocessor_config.json",
         "--quantization",
         "float16",

@@ -32,7 +32,7 @@ from src.download_asr_model import download_asr_model
 print(
     "(2 of 4) Checking dependencies and downloading the ASR model from Hugging Face ..."
 )
-check_dependencies()
+# check_dependencies()
 # whisper_model = "openai/whisper-medium"  # The large model requires alot of GPU memmory to train, one might what to use the medium model instead.
 whisper_model = download_asr_model()
 
@@ -58,9 +58,9 @@ finetune(
 # Convert model from Hugging Face Transformers to Faster-Whisper format
 from src.finetune_whisper import convert
 
+output_dir = "/home/davidm/projects/spjallromur/spjallromur/whisper-large-icelandic-30k-steps-1000h-spjallromur"
 print("(4 of 5) Convert model from Hugging Face Transformers to Faster-Whisper format")
 finetuned_model = convert(output_dir)
-
 
 # ########################################################################
 # # Transcribe the Dev and Test splits using Faster-Whisper
