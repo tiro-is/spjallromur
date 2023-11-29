@@ -340,7 +340,7 @@ def run_segmentation(
 
         segments = [seg for seg in segments if seg["duration"] >= min_duration]
         print("Remvoing segments that only have <unk> or [hik: ...].")
-        segments = [seg for seg in segments if segment["text_norm"].strip().rstrip()]
+        segments = [seg for seg in segments if seg["text_norm"].strip().rstrip()]
 
         out_folder = os.path.join(output_folder, fileId2split[file_id], file_id)
         os.makedirs(out_folder, exist_ok=True)
