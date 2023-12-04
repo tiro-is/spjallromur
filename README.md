@@ -38,6 +38,10 @@ To evaluate the new alignments, we manually reviewed ~300 segments. Details on t
 
 The file names are structured like `<spk-id>_<unique-key>_<age>_<gender>.wav`. Each audio file is 16-bit, 16000 kHz, single channel WAVE.
 
+# Prepare audio
+
+For ease of use one can run the script `prepare_audio.py` to convert the audiofiles to the ASR and diarization format. Same steps are used in the recepies described below.
+
 # ASR
 
 The reason that the data was re-aligned in this revision is for training and evaluating ASR systems on conversational data. The script `run_asr_recipe.py` converts the corpus into short segmented audio clips as well as splits them into `train`, `dev`, and `test` sets.

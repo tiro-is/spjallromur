@@ -12,10 +12,10 @@
 
 ########################################################################
 
-from glob import glob
-import os
 import json
+import os
 import subprocess
+from glob import glob
 
 # Define paths
 ROOT = "."
@@ -33,6 +33,9 @@ def merge_audio_files(file1, file2, output_file):
     """
     command = ["sox", "-M", file1, file2, "-c1", output_file]
 
+    if os.path.exists(output_file):
+        print(f"{output_file} already exists, wont overwrite.")
+        return
     try:
         subprocess.run(command, check=True)
         print(f"Files merged successfully into {output_file}")
@@ -40,7 +43,7 @@ def merge_audio_files(file1, file2, output_file):
         print("Error merging audio files.")
 
 
-def merge_transcripts(transcript_a, transcript_b, output_file):
+def merge_transcripts(transcript_a, transcript_b):
     """
     Combines the transcripts of two speakers into a single JSON file.
 
@@ -65,7 +68,7 @@ def merge_transcripts(transcript_a, transcript_b, output_file):
     combined = trans_a["words"] + trans_b["words"]
     combined.sort(key=lambda s: s["start"])
 
-    data = {
+    return {
         "metadata": {
             "speaker_a": {
                 "age": trans_a["metadata"]["age"],
@@ -78,13 +81,9 @@ def merge_transcripts(transcript_a, transcript_b, output_file):
         },
         "words": combined,
     }
-    with open(output_file, "w") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
-
-    return data
 
 
-def convert2rttm(data, output_file, file_id):
+def convert2rttm(data, file_id):
     """
     Converts the combined transcript into the RTTM format.
 
@@ -121,9 +120,7 @@ def convert2rttm(data, output_file, file_id):
             if duration > 0.2:
                 s1 = f"SPEAKER {file_id} 1 {start} {duration} <NA> <NA> {spk_mapping[spk]} <NA> <NA>"
                 rttm.append(s1)
-
-    with open(output_file, "w") as f_out:
-        f_out.write("\n".join(rttm) + "\n")
+    return rttm
 
 
 def convert():
@@ -134,7 +131,7 @@ def convert():
     os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
     for folder in glob(f"{ROOT}/full_conversations/*"):
-        print(folder)
+        print(f"Preparing '{folder}'")
         spk_a_trans = glob(f"{folder}/a*.json")[0]
         spk_b_trans = glob(f"{folder}/b*.json")[0]
         spk_a_audio = glob(f"{folder}/a*.wav")[0]
@@ -145,12 +142,27 @@ def convert():
         out_dir = os.path.join(OUTPUT_ROOT, folder_base)
         os.makedirs(out_dir, exist_ok=True)
 
-        data = merge_transcripts(
+        merged_json = os.path.join(out_dir, f"{new_filename}.json")
+        merged_rttm = os.path.join(out_dir, f"{new_filename}.rttm")
+
+        merged_data = merge_transcripts(
             spk_a_trans,
             spk_b_trans,
-            os.path.join(out_dir, f"{new_filename}.json"),
         )
-        convert2rttm(data, os.path.join(out_dir, f"{new_filename}.rttm"), new_filename)
+        if not os.path.exists(merged_json):
+            with open(merged_json, "w") as file:
+                json.dump(merged_data, file, ensure_ascii=False, indent=4)
+        else:
+            print(f"{merged_json} already exists, wont overwrite.")
+
+        rttm = convert2rttm(merged_data, merged_rttm)
+
+        if not os.path.exists(merged_rttm):
+            with open(merged_rttm, "w") as file:
+                file.write("\n".join(rttm) + "\n")
+        else:
+            print(f"{merged_rttm} already exists, wont overwrite.")
+
         merge_audio_files(
             spk_a_audio, spk_b_audio, os.path.join(out_dir, f"{new_filename}.wav")
         )

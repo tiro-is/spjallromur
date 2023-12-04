@@ -26,23 +26,49 @@ dev_trans, test_trans, train_trans = run_segmentation(
 # ########################################################################
 # Download the ASR model "language-and-voice-lab/whisper-large-icelandic-30k-steps-1000h-ct2"
 
-from src.download_asr_model import download_asr_model
 from src.check_dependencies import check_dependencies
+from src.download_asr_model import download_asr_model
 
 print(
     "(2 of 4) Checking dependencies and downloading the ASR model from Hugging Face ..."
 )
-check_dependencies()
+# check_dependencies()
+# whisper_model = "openai/whisper-medium"  # The large model requires alot of GPU memmory to train, one might what to use the medium model instead.
 whisper_model = download_asr_model()
 
+
+# ########################################################################
+# Finetune the model using the Spjallrómur segments
+from src.finetune_whisper import finetune
+
+dev_trans = "segmented/dev.trans"
+test_trans = "segmented/train.trans"
+train_trans = "segmented/test.trans"
+
+output_dir = "./whisper-large-icelandic-30k-steps-1000h-spjallromur"
+finetune(
+    whisper_model=whisper_model,
+    dev_trans=dev_trans,
+    test_trans=test_trans,
+    train_trans=train_trans,
+    output_dir=output_dir,
+)
+
+# ########################################################################
+# Convert model from Hugging Face Transformers to Faster-Whisper format
+from src.finetune_whisper import convert
+
+output_dir = "/home/davidm/projects/spjallromur/spjallromur/whisper-large-icelandic-30k-steps-1000h-spjallromur"
+print("(4 of 5) Convert model from Hugging Face Transformers to Faster-Whisper format")
+finetuned_model = convert(output_dir)
 
 # ########################################################################
 # # Transcribe the Dev and Test splits using Faster-Whisper
 from src.transcribe import transcribe_file, transcribe_file_parallel
 
-print("(3 of 4) Transcribing the Dev and Test splits using Faster-Whisper ...")
+print("(4 of 5) Transcribing the Dev and Test splits using Faster-Whisper ...")
 
-output_dir = "results/asr/whisper-large-icelandic-30k-steps-1000h-ct2"
+output_dir = f"results/asr/{finetuned_model}"
 os.makedirs(output_dir, exist_ok=True)
 hyp_test = os.path.join(output_dir, "test")
 hyp_dev = os.path.join(output_dir, "dev")
@@ -53,9 +79,11 @@ hyp_dev = os.path.join(output_dir, "dev")
 #    device="cuda", compute_type="int8"
 #    device="cpu", compute_type="int8"
 transcribe_file(
-    test_trans, hyp_test, whisper_model, device="cuda", compute_type="float16"
+    test_trans, hyp_test, finetuned_model, device="cuda", compute_type="float16"
 )
-transcribe_file(dev_trans, hyp_dev, whisper_model, device="cpu", compute_type="float16")
+transcribe_file(
+    dev_trans, hyp_dev, finetuned_model, device="cpu", compute_type="float16"
+)
 
 # Use the following to decode in parallel.
 # transcribe_file_parallel(test_trans, hyp_test, whisper_model, device="cuda", compute_type="float16", batches=5)
@@ -63,9 +91,9 @@ transcribe_file(dev_trans, hyp_dev, whisper_model, device="cpu", compute_type="f
 
 # ########################################################################
 # Calculate the WER and CER of Dev and Test splits using jiwer
-from src.score import calculate_wer, calculate_cer
+from src.score import calculate_cer, calculate_wer
 
-print("(4 of 4) Calculating WER and CER of the Dev and Test splits ...")
+print("(5 of 5) Calculating WER and CER of the Dev and Test splits ...")
 calculate_wer(hyp_test, "results/results.txt", split="test")
 calculate_wer(hyp_dev, "results/results.txt", split="dev")
 

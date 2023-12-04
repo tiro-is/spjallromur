@@ -11,11 +11,11 @@
 
 ########################################################################
 
-import re
 import os
-from tqdm import tqdm
+import re
+from multiprocessing import Manager, Process
+
 from faster_whisper import WhisperModel
-from multiprocessing import Process, Manager
 from tqdm import tqdm
 
 

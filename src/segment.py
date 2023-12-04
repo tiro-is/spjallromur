@@ -8,11 +8,11 @@
 
 ########################################################################
 
-import re
-import os
-from glob import glob
-import subprocess
 import json
+import os
+import re
+import subprocess
+from glob import glob
 from typing import Tuple
 
 
@@ -339,10 +339,12 @@ def run_segmentation(
         print(f"Remving segments that are less than {min_duration} seconds.")
 
         segments = [seg for seg in segments if seg["duration"] >= min_duration]
+        print("Remvoing segments that only have <unk> or [hik: ...].")
+        segments = [seg for seg in segments if seg["text_norm"].strip().rstrip()]
+
         out_folder = os.path.join(output_folder, fileId2split[file_id], file_id)
         os.makedirs(out_folder, exist_ok=True)
         print(f"Saving the segments to {out_folder}")
-
         for idx, segment in enumerate(segments):
             filename = f"{file_id}_{str(idx)}_{str(segment['duration'])}"
 
@@ -351,11 +353,19 @@ def run_segmentation(
             extract_audio_segment(
                 audio_file, out_f + ".wav", segment["start"], segment["duration"]
             )
-            with open(out_f + "_norm.txt", "w") as f:
-                f.write(segment["text_norm"])
-            with open(out_f + ".txt", "w") as f:
-                f.write(segment["text"])
+            norm_text = out_f + "_norm.txt"
+            text = out_f + ".txt"
+            if not os.path.exists(norm_text):
+                with open(norm_text, "w") as f:
+                    f.write(segment["text_norm"])
+            else:
+                print(f"{norm_text} exists, wont overwrite")
 
+            if not os.path.exists(text):
+                with open(text, "w") as f:
+                    f.write(segment["text"])
+            else:
+                print(f"{text} exists, wont overwrite")
             line = [
                 file_id,
                 filename,
@@ -372,6 +382,16 @@ def run_segmentation(
     test_trans = os.path.join(output_folder, "test.trans")
     train_trans = os.path.join(output_folder, "train.trans")
 
+    if any(
+        [
+            os.path.exists(dev_trans),
+            os.path.exists(test_trans),
+            os.path.exists(train_trans),
+        ]
+    ):
+        print(f"{dev_trans}, {test_trans} or {train_trans} exist, wont overwrite.")
+        return dev_trans, test_trans, train_trans
+
     with open(test_trans, "w") as test, open(dev_trans, "w") as dev, open(
         train_trans, "w"
     ) as train, open(test_trans.replace(".trans", ".info"), "w") as test_info, open(
@@ -379,10 +399,7 @@ def run_segmentation(
     ) as dev_info, open(
         train_trans.replace(".trans", ".info"), "w"
     ) as train_info:
-        header = (
-            " ".join(["file_id", "segment_id", "split", "start", "end", "duration"])
-            + "\n"
-        )
+        header = " ".join(["file_id", "segment_id", "start", "end", "duration"]) + "\n"
         test_info.write(header)
         dev_info.write(header)
         train_info.write(header)
