@@ -42,8 +42,8 @@ whisper_model = download_asr_model()
 from src.finetune_whisper import finetune
 
 dev_trans = "segmented/dev.trans"
-test_trans = "segmented/train.trans"
-train_trans = "segmented/test.trans"
+test_trans = "segmented/test.trans"
+train_trans = "segmented/train.trans"
 
 output_dir = "./whisper-large-icelandic-30k-steps-1000h-spjallromur"
 finetune(
