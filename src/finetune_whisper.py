@@ -37,11 +37,9 @@ def convert(model_dir: str) -> str:
         "float16",
     ]
 
-    try:
-        subprocess.run(command, check=True)
-        print(f"Successfully converted the model: {output}")
-    except subprocess.CalledProcessError as e:
-        raise (f"An error occurred: {e}")
+    subprocess.run(command, check=True)
+    print(f"Successfully converted the model: {output}")
+
     return output
 
 

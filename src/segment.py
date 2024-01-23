@@ -38,7 +38,7 @@ def compile_files() -> list:
     if paths:
         return paths
     else:
-        raise ("No audio files found")
+        raise Exception("No audio files found")
 
 
 def extract_audio_segment(
@@ -127,7 +127,7 @@ def open_splits_files(splits_folder: str) -> dict:
     for s in ["dev", "train", "test"]:
         f = os.path.join(splits_folder, s)
         if not os.path.exists(f):
-            raise (f"File {f} does not exist")
+            raise Exception(f"File {f} does not exist")
         mapping.update({x.rstrip(): s for x in open(f)})
     return mapping
 
@@ -240,7 +240,7 @@ def run_segmentation(
     """
 
     if not os.path.exists(splits_folder):
-        raise (f"Folder {splits_folder} does not exist")
+        raise Exception(f"Folder {splits_folder} does not exist")
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -248,7 +248,7 @@ def run_segmentation(
     for s in ["dev", "train", "test"]:
         f = os.path.join(splits_folder, s)
         if not os.path.exists(f):
-            raise (f"File {f} does not exist")
+            raise Exception(f"File {f} does not exist")
         else:
             os.makedirs(os.path.join(output_folder, s), exist_ok=True)
 
@@ -418,5 +418,5 @@ def run_segmentation(
                 train.write(line)
                 train_info.write(info)
             else:
-                raise ("File not in splits")
+                raise Exception("File not in splits")
     return dev_trans, test_trans, train_trans
