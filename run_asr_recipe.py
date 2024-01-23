@@ -62,7 +62,6 @@ finetune(
 # Convert model from Hugging Face Transformers to Faster-Whisper format
 from src.finetune_whisper import convert
 
-# output_dir = "/home/davidm/projects/spjallromur/spjallromur/whisper-large-icelandic-30k-steps-1000h-spjallromur"
 print("(4 of 5) Convert model from Hugging Face Transformers to Faster-Whisper format")
 finetuned_model = convert(output_dir)
 
