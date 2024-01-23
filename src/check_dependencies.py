@@ -102,6 +102,25 @@ def check_dependencies():
     # ENDIF
 
     ########################################################################
+    # Check the existance of sox in the system
+
+    cmd = "sox --version"
+    shell_out = subprocess.check_output(cmd, shell=True)
+
+    shell_out = shell_out.decode("utf-8")
+    shell_out = shell_out[0:3]
+
+    first_word = shell_out
+    first_word_ok = "sox"
+
+    if first_word != first_word_ok:
+        print('\nERROR: You need to install the command "sox" in your system.')
+        print("In Ubuntu try with:")
+        print("\n\t$ sudo apt install sox\n")
+        ERROR_FLAG = True
+    # ENDIF
+
+    ########################################################################
 
     if ERROR_FLAG == False:
         print("\n\tSuccess: Your system is ready to run the recipe!\n")
