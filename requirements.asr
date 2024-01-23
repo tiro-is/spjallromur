@@ -1,3 +1,4 @@
+torch>=2.0.0
 datasets>=2.6.1
 transformers>=4.23
 jiwer>=s3.0.3
