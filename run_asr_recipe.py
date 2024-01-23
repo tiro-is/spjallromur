@@ -7,6 +7,10 @@
 # This is scripts runs all the scripts that are necessary to perform
 # an ASR experiment using the corpus Spjallromur and the Speech
 # Recognition system Whisper.
+#
+# Dependencies can be installed by running `pip install -r requirements.asr` in a
+# virtual environment. The script also requires a system installation of sox,
+# installable on Debian-based systems with `apt install sox`.
 
 ########################################################################
 
@@ -58,7 +62,7 @@ finetune(
 # Convert model from Hugging Face Transformers to Faster-Whisper format
 from src.finetune_whisper import convert
 
-output_dir = "/home/davidm/projects/spjallromur/spjallromur/whisper-large-icelandic-30k-steps-1000h-spjallromur"
+# output_dir = "/home/davidm/projects/spjallromur/spjallromur/whisper-large-icelandic-30k-steps-1000h-spjallromur"
 print("(4 of 5) Convert model from Hugging Face Transformers to Faster-Whisper format")
 finetuned_model = convert(output_dir)
 
